@@ -1,0 +1,460 @@
+repo,sha,message,url,func_changes
+PyCQA/bandit,d8feade707d29d2f35ead8afb349cdf8843f0d74,Bump sigstore/cosign-installer from 3.8.1 to 3.8.2 (#1262),https://github.com/PyCQA/bandit/commit/d8feade707d29d2f35ead8afb349cdf8843f0d74,0
+PyCQA/bandit,b054c097fda9d109d54bbc53064fa95cf43d8f7f,Fix up some of the warnings when building docs (#1258),https://github.com/PyCQA/bandit/commit/b054c097fda9d109d54bbc53064fa95cf43d8f7f,0
+PyCQA/bandit,1ab078878abcedee96330b27e70d3eb3871dc192,Fix traceback from trojansource plugin (#1248),https://github.com/PyCQA/bandit/commit/1ab078878abcedee96330b27e70d3eb3871dc192,0
+PyCQA/bandit,b983c276759233e68ef236ed6f34e07e038327f5,Bump docker/login-action from 3.3.0 to 3.4.0 (#1245),https://github.com/PyCQA/bandit/commit/b983c276759233e68ef236ed6f34e07e038327f5,0
+PyCQA/bandit,2108a6fdaed254c9d33b8c115fc65a4565667f07,Bump sigstore/cosign-installer from 3.8.0 to 3.8.1 (#1239),https://github.com/PyCQA/bandit/commit/2108a6fdaed254c9d33b8c115fc65a4565667f07,0
+PyCQA/bandit,c58c00a2427012874fadc5379a9c676c98fced85,Add more random functions to B311 check (#1235),https://github.com/PyCQA/bandit/commit/c58c00a2427012874fadc5379a9c676c98fced85,0
+PyCQA/bandit,8ff25e07e487f143571cc305e56dd0253c60bc7b,Pytorch fix (#1231),https://github.com/PyCQA/bandit/commit/8ff25e07e487f143571cc305e56dd0253c60bc7b,2
+PyCQA/bandit,def123ac6dc581a4240a0656319251a46ab80d45,B107: Skip None values in hardcoded password detection (#1232),https://github.com/PyCQA/bandit/commit/def123ac6dc581a4240a0656319251a46ab80d45,1
+PyCQA/bandit,affd4fd1f506819de211797f3ea4e11114c31bf1,Warn not error on an nonexistant test given (#1230),https://github.com/PyCQA/bandit/commit/affd4fd1f506819de211797f3ea4e11114c31bf1,0
+PyCQA/bandit,5e3e694325563a0a07053efd162a661f418948bb,Add markupsafe.Markup XSS plugin (#1225),https://github.com/PyCQA/bandit/commit/5e3e694325563a0a07053efd162a661f418948bb,2
+PyCQA/bandit,7619cc4d787923ed836014e28f8970f2955ff7c0,[pre-commit.ci] pre-commit autoupdate (#1229),https://github.com/PyCQA/bandit/commit/7619cc4d787923ed836014e28f8970f2955ff7c0,0
+PyCQA/bandit,e4da0b351f89a82b5de8dd791cbdd963476b5a11,Remove lxml (B320 & B410) from blacklist (#1212),https://github.com/PyCQA/bandit/commit/e4da0b351f89a82b5de8dd791cbdd963476b5a11,0
+PyCQA/bandit,48e0258f14a20bb74aff4fb17d254c178d84c0c4,Add a JSON to seek funding from the FLOSS/fund (#1194),https://github.com/PyCQA/bandit/commit/48e0258f14a20bb74aff4fb17d254c178d84c0c4,0
+PyCQA/bandit,071386bcd801114a88cd42f1ef76e34f50f96661,No need to check httpx client without timeout defined (#1177),https://github.com/PyCQA/bandit/commit/071386bcd801114a88cd42f1ef76e34f50f96661,0
+PyCQA/bandit,01302baa3ff3aff1e76638281529d2004910c551,Rename doc file to match proper bandit ID (#1183),https://github.com/PyCQA/bandit/commit/01302baa3ff3aff1e76638281529d2004910c551,0
+PyCQA/bandit,36fd65054fc8864b4037d0918904f9331512feb5,Pytorch Load / Save Plugin (#1114),https://github.com/PyCQA/bandit/commit/36fd65054fc8864b4037d0918904f9331512feb5,1
+PyCQA/bandit,4ac55dfaaacf2083497831294b2dcd7e679f8428,Use consistent file naming of docs (#1170),https://github.com/PyCQA/bandit/commit/4ac55dfaaacf2083497831294b2dcd7e679f8428,0
+PyCQA/bandit,90490c705926432df1922e5b73b94d0e21958c1a,Bump docker/login-action from 3.2.0 to 3.3.0 (#1159),https://github.com/PyCQA/bandit/commit/90490c705926432df1922e5b73b94d0e21958c1a,0
+PyCQA/bandit,ec384b84261e563d4dc5cfe71673f159fcb199af,New check: B113: TrojanSource - Bidirectional control characters (#757),https://github.com/PyCQA/bandit/commit/ec384b84261e563d4dc5cfe71673f159fcb199af,1
+PyCQA/bandit,6142b7a6aa1b9a4ac997955e48eadab144434df2,Add test for usage of FTP_TLS (#1149),https://github.com/PyCQA/bandit/commit/6142b7a6aa1b9a4ac997955e48eadab144434df2,0
+PyCQA/bandit,4208e9d95ebbe2c1fa294b3dad7685035520b92f,Performance improvement in blacklist function (#1148),https://github.com/PyCQA/bandit/commit/4208e9d95ebbe2c1fa294b3dad7685035520b92f,0
+PyCQA/bandit,2b4195580353e75837c692c8df57e699bc06d455,Suggested small refactors in assignments (#1150),https://github.com/PyCQA/bandit/commit/2b4195580353e75837c692c8df57e699bc06d455,0
+PyCQA/bandit,049eba08c90c86404d16ed71e5f109dfddf459cd,Guard against empty call argument list (#1146),https://github.com/PyCQA/bandit/commit/049eba08c90c86404d16ed71e5f109dfddf459cd,0
+PyCQA/bandit,313cae756a351ca3e7b6a183fe87a92b9d56ea22,Bump docker/login-action from 3.1.0 to 3.2.0 (#1142),https://github.com/PyCQA/bandit/commit/313cae756a351ca3e7b6a183fe87a92b9d56ea22,0
+PyCQA/bandit,3fa1e257a864b03d621b8de1425ff69dda7d1736,Ensure sarif extra is included as part of doc build (#1139),https://github.com/PyCQA/bandit/commit/3fa1e257a864b03d621b8de1425ff69dda7d1736,0
+PyCQA/bandit,960edb70dd2c476e4bdb95c413b6ec58bf6d00e6,Bump docker/login-action from 3.0.0 to 3.1.0 (#1125),https://github.com/PyCQA/bandit/commit/960edb70dd2c476e4bdb95c413b6ec58bf6d00e6,0
+PyCQA/bandit,b5fde76f328d5a2e1d534bcde86bd59e0010fec5,New logo for Bandit based on raccoon (#1121),https://github.com/PyCQA/bandit/commit/b5fde76f328d5a2e1d534bcde86bd59e0010fec5,0
+PyCQA/bandit,52d2dc961bf7f39d903636161304be29d3c3f1e2,[pre-commit.ci] pre-commit autoupdate (#1119),https://github.com/PyCQA/bandit/commit/52d2dc961bf7f39d903636161304be29d3c3f1e2,0
+PyCQA/bandit,b603dce79aefe794ce6a0531cb191a45f4e52e01,[B605] Add functions that are vulnerable to shell injection. (#1116),https://github.com/PyCQA/bandit/commit/b603dce79aefe794ce6a0531cb191a45f4e52e01,0
+PyCQA/bandit,3f86e84b5c0b4aad3995f642c32f554a41c9c6a8,Remove markdown formatting in reStructuredText formatted README (#1103),https://github.com/PyCQA/bandit/commit/3f86e84b5c0b4aad3995f642c32f554a41c9c6a8,0
+PyCQA/bandit,ff7ed4b192566367ea86733172ef47a29004bc9f,Introduce Official Bandit Images (#1088),https://github.com/PyCQA/bandit/commit/ff7ed4b192566367ea86733172ef47a29004bc9f,0
+PyCQA/bandit,22c75a8306103052c4cbfe69e45931efdd5e4353,Rework GitPython dependency to be an extra for bandit-baseline (#1099),https://github.com/PyCQA/bandit/commit/22c75a8306103052c4cbfe69e45931efdd5e4353,0
+PyCQA/bandit,12e14f61e91aafdf0767d3e8c2193174b9808652,Prepend ./ for files specified as CLI args (#1094),https://github.com/PyCQA/bandit/commit/12e14f61e91aafdf0767d3e8c2193174b9808652,0
+PyCQA/bandit,7129108b1910897a5f36dea052d10cf721392a56,Fix up issues found running Bandit on itself (#1093),https://github.com/PyCQA/bandit/commit/7129108b1910897a5f36dea052d10cf721392a56,0
+PyCQA/bandit,c2bd6d6368f783400d2c89a83ca171ceaa12ac26,Create a security policy (#1091),https://github.com/PyCQA/bandit/commit/c2bd6d6368f783400d2c89a83ca171ceaa12ac26,0
+PyCQA/bandit,fe9ca8b7139e5e73e24f3176e7a771bc0ce9b8a9,Flag str.replace as possible sql injection (#1044),https://github.com/PyCQA/bandit/commit/fe9ca8b7139e5e73e24f3176e7a771bc0ce9b8a9,0
+PyCQA/bandit,5ec806de1901fe99083ddeab4b117c2ccf84c2e9,Handle variant in how policy is passed in paramiko (#1078),https://github.com/PyCQA/bandit/commit/5ec806de1901fe99083ddeab4b117c2ccf84c2e9,0
+PyCQA/bandit,f3a18ab30bc444e62d02505419ab7059cead0853,Fixes for sphinx build (#1063),https://github.com/PyCQA/bandit/commit/f3a18ab30bc444e62d02505419ab7059cead0853,0
+PyCQA/bandit,0d3508660654776e3b440c3b46d708dc3792cd4a,Fix crash on pyproject.toml without bandit config (#1073),https://github.com/PyCQA/bandit/commit/0d3508660654776e3b440c3b46d708dc3792cd4a,0
+PyCQA/bandit,6969489ff711a1762bd44d00eaaba75f0c7102f6,fix(plugins/B507): also detect class instances (#1064),https://github.com/PyCQA/bandit/commit/6969489ff711a1762bd44d00eaaba75f0c7102f6,0
+PyCQA/bandit,02faadac77e8901f0367dfea463cba484eaeeec7,Fix for ReadtheDocs build (#1061),https://github.com/PyCQA/bandit/commit/02faadac77e8901f0367dfea463cba484eaeeec7,0
+PyCQA/bandit,0f49be77223c1a89ca80eb8cea911e6ac3e2a52d,Fix dependabot to update github actions (#1057),https://github.com/PyCQA/bandit/commit/0f49be77223c1a89ca80eb8cea911e6ac3e2a52d,0
+PyCQA/bandit,6d1d11c01e7824c04cc5005b4fe6b932c6999b18,Support ignoring blacklists by name (#1046),https://github.com/PyCQA/bandit/commit/6d1d11c01e7824c04cc5005b4fe6b932c6999b18,0
+PyCQA/bandit,215f01435e1347b8ac46add1f42ad1f46d373139,Update blacklist call documentation (#1045),https://github.com/PyCQA/bandit/commit/215f01435e1347b8ac46add1f42ad1f46d373139,0
+PyCQA/bandit,fb2f1805f4aa34237ccc9bf790072ad04700e26f,Avoid gitpyhon CVE-2022-24439 (#1048),https://github.com/PyCQA/bandit/commit/fb2f1805f4aa34237ccc9bf790072ad04700e26f,0
+PyCQA/bandit,c420d1d5356f6979b7af3cc46bd182f3ac9edaeb,django_rawsql_used: support keyword arguments used in `RawSQL` (#765),https://github.com/PyCQA/bandit/commit/c420d1d5356f6979b7af3cc46bd182f3ac9edaeb,0
+PyCQA/bandit,db6d677dab5a374e1d7b0768897e5f35d372d2d9,Remove support for Python 3.7 due to end-of-life (#1034),https://github.com/PyCQA/bandit/commit/db6d677dab5a374e1d7b0768897e5f35d372d2d9,0
+PyCQA/bandit,c4da1cb430a905b3c9e0b77f0ee051bc9f6c2d15,Adds check for crypt module usage as weak hash (#1018),https://github.com/PyCQA/bandit/commit/c4da1cb430a905b3c9e0b77f0ee051bc9f6c2d15,5
+PyCQA/bandit,af6b4360a9db0ed194c11562007acfef2baa50d0,Improper detection of non-requests module (#1011),https://github.com/PyCQA/bandit/commit/af6b4360a9db0ed194c11562007acfef2baa50d0,0
+PyCQA/bandit,02d73e94750a2a5d42e886b28243b03e920fb780,Remove checks for Python2 urllib (#999),https://github.com/PyCQA/bandit/commit/02d73e94750a2a5d42e886b28243b03e920fb780,0
+PyCQA/bandit,ff431afe5c77a4d7e8203e6dcf8e78e2a9f44b55,Render Python 3.10 in drop down correctly (#997),https://github.com/PyCQA/bandit/commit/ff431afe5c77a4d7e8203e6dcf8e78e2a9f44b55,0
+PyCQA/bandit,7e6f580d6ad1b35be91046e591526602327a388d,Improve detecting SQL injections in f-strings (#917),https://github.com/PyCQA/bandit/commit/7e6f580d6ad1b35be91046e591526602327a388d,1
+PyCQA/bandit,a76299303f15268e97a6bacb1cb32a804893c584,Fix breaking build due to new tox (#983),https://github.com/PyCQA/bandit/commit/a76299303f15268e97a6bacb1cb32a804893c584,0
+PyCQA/bandit,3aaa2b07be47090344d89e5532bcde15127c2909,remove py2 exec example in docs (#947),https://github.com/PyCQA/bandit/commit/3aaa2b07be47090344d89e5532bcde15127c2909,0
+PyCQA/bandit,a74385886432e37211f88d5caf135be4bbfdad57,Typo fix (#945),https://github.com/PyCQA/bandit/commit/a74385886432e37211f88d5caf135be4bbfdad57,0
+PyCQA/bandit,97501817e621db9975dfa6a2a1d36370942d1812,Fix AttributeError on detect of tuple assign condition (#931),https://github.com/PyCQA/bandit/commit/97501817e621db9975dfa6a2a1d36370942d1812,1
+PyCQA/bandit,6a003175313ddc26af003957daf689e848913bde,Fix json and yaml formatters to respect num lines (#929),https://github.com/PyCQA/bandit/commit/6a003175313ddc26af003957daf689e848913bde,0
+PyCQA/bandit,f352b205b522650cc0ced298fc1499a046328265,Fixup some invalid pickle testing (#924),https://github.com/PyCQA/bandit/commit/f352b205b522650cc0ced298fc1499a046328265,0
+PyCQA/bandit,fe055fde70b76a1f160440778e522637aedf6c53,Pass correct number of arguments to match the `%s` placeholders. (#934),https://github.com/PyCQA/bandit/commit/fe055fde70b76a1f160440778e522637aedf6c53,0
+PyCQA/bandit,84edd090dd988510a6b0c2c25aafbc64864d6ead,Remove python 2 reference in docs (#933),https://github.com/PyCQA/bandit/commit/84edd090dd988510a6b0c2c25aafbc64864d6ead,0
+PyCQA/bandit,931d9f3327f3234d7cc12e452da1e9c34d4bda41,Fix filename of B202 in docs (#932),https://github.com/PyCQA/bandit/commit/931d9f3327f3234d7cc12e452da1e9c34d4bda41,0
+PyCQA/bandit,521aa002bbf4a0312c429432de365cb5ccb0502f,weak_cryptographic_key assumes positional arg (#930),https://github.com/PyCQA/bandit/commit/521aa002bbf4a0312c429432de365cb5ccb0502f,0
+PyCQA/bandit,a51b855e237840d232ff1b170a2ad066ea9d9145,Check for deprecated TLS 1.1 (#928),https://github.com/PyCQA/bandit/commit/a51b855e237840d232ff1b170a2ad066ea9d9145,3
+PyCQA/bandit,f762f2e7119a75ee04b9c2400d08d7cb330af9da,Fix issue #453 jinja2 template select_autoescape when using jinja2.select_autoescape (#454),https://github.com/PyCQA/bandit/commit/f762f2e7119a75ee04b9c2400d08d7cb330af9da,0
+PyCQA/bandit,1067978c59967165a496c63a3fd33393ddb28050,Fix a false positive condition yaml_load (#927),https://github.com/PyCQA/bandit/commit/1067978c59967165a496c63a3fd33393ddb28050,0
+PyCQA/bandit,5809d1bec788f88c88c99afd42b80c58ea876363,Add case for global exec (#570),https://github.com/PyCQA/bandit/commit/5809d1bec788f88c88c99afd42b80c58ea876363,1
+PyCQA/bandit,39cdfab46a9152a383903ee99ae199522a5e5674,Fix reading the number argument from config file (#923),https://github.com/PyCQA/bandit/commit/39cdfab46a9152a383903ee99ae199522a5e5674,0
+PyCQA/bandit,0b56c572c265a02bc5565bd1a6aeb88866b8cc6e,Remove invalid checking on hashlib (#914),https://github.com/PyCQA/bandit/commit/0b56c572c265a02bc5565bd1a6aeb88866b8cc6e,0
+PyCQA/bandit,7104b336d31a691b145d4a5cc38d6c1d47c6046f,Make small fixes in docs (#899),https://github.com/PyCQA/bandit/commit/7104b336d31a691b145d4a5cc38d6c1d47c6046f,0
+PyCQA/bandit,c6b3db7ff76e0477daa07584376f53a6165aaf3a,Add dependency review action (#891),https://github.com/PyCQA/bandit/commit/c6b3db7ff76e0477daa07584376f53a6165aaf3a,0
+PyCQA/bandit,05707b3bf7a996e320ea54382df97cf3b8e9d7e5,Remove redundant word Bandit in titles of sections (#873),https://github.com/PyCQA/bandit/commit/05707b3bf7a996e320ea54382df97cf3b8e9d7e5,0
+PyCQA/bandit,c1668558fcd87c03357da4b47143f4c57acfcb58,Add license and contributing links to docs (#867),https://github.com/PyCQA/bandit/commit/c1668558fcd87c03357da4b47143f4c57acfcb58,0
+PyCQA/bandit,7c39add96d27596b672c708ce1c9af55dc493dcf,Fix for build breaks in format job (#869),https://github.com/PyCQA/bandit/commit/7c39add96d27596b672c708ce1c9af55dc493dcf,0
+PyCQA/bandit,5ff73ff8ff956df7d63fde49c3bd671db8e821eb,"add check for ""requests"" calls without timeout (#743)",https://github.com/PyCQA/bandit/commit/5ff73ff8ff956df7d63fde49c3bd671db8e821eb,1
+PyCQA/bandit,def99282b1aea0e6ba5e64d572789b2bf8f0e5db,Fix up B109 and B111 removed plugins docs (#864),https://github.com/PyCQA/bandit/commit/def99282b1aea0e6ba5e64d572789b2bf8f0e5db,0
+PyCQA/bandit,dd14b8fb8d0864b02b35d2009a1681dbf0ca7e2a,Add the httpx module check for verify (#861),https://github.com/PyCQA/bandit/commit/dd14b8fb8d0864b02b35d2009a1681dbf0ca7e2a,0
+PyCQA/bandit,130a467434ff6b8f9bbd83100e409bc1fcb6f407,Removal of blacklist call B309 httpsconnection (#858),https://github.com/PyCQA/bandit/commit/130a467434ff6b8f9bbd83100e409bc1fcb6f407,0
+PyCQA/bandit,1c0fc804a5e6330b9781a6c26339bf09d6da3e53,Fix line range using Python 3.8 end_lineno (#821),https://github.com/PyCQA/bandit/commit/1c0fc804a5e6330b9781a6c26339bf09d6da3e53,1
+PyCQA/bandit,71bc67ca723bd8126c89d405f509e43b7d5477a1,core/config: Fix ConfigError missing argument if toml is missing (#845),https://github.com/PyCQA/bandit/commit/71bc67ca723bd8126c89d405f509e43b7d5477a1,0
+PyCQA/bandit,fbaf2cefcfa2d204518064e31c5b14a530e8b790,Fix traceback in hashlib_insecure_functions (#834),https://github.com/PyCQA/bandit/commit/fbaf2cefcfa2d204518064e31c5b14a530e8b790,0
+PyCQA/bandit,8bad6fa03cf320279cf343dd00662cbf05a1dc0c,Improve performance of linerange (#629),https://github.com/PyCQA/bandit/commit/8bad6fa03cf320279cf343dd00662cbf05a1dc0c,1
+PyCQA/bandit,528c540b3a39cff8b9486606b93967e32bd02674,Use CWE link in HTML formatter (#825),https://github.com/PyCQA/bandit/commit/528c540b3a39cff8b9486606b93967e32bd02674,0
+PyCQA/bandit,4a18a920a5acd6b019c78b219beac6a172b0f1c4,Fix root doc for readthedocs (#818),https://github.com/PyCQA/bandit/commit/4a18a920a5acd6b019c78b219beac6a172b0f1c4,0
+PyCQA/bandit,78b0bc15da909af2cc4ce85eb6ba29b37cdee265,Fix up some warnings and errors in docs (#817),https://github.com/PyCQA/bandit/commit/78b0bc15da909af2cc4ce85eb6ba29b37cdee265,0
+PyCQA/bandit,0f4a4959bcc82665fc6bd7f575a87a12678d4484,Cannot seek stdin on pipe (#496),https://github.com/PyCQA/bandit/commit/0f4a4959bcc82665fc6bd7f575a87a12678d4484,0
+PyCQA/bandit,1691b935fb0b8fabe4d3a0c151ae73e8b16e5cc8,Respect color environment variables if set (#813),https://github.com/PyCQA/bandit/commit/1691b935fb0b8fabe4d3a0c151ae73e8b16e5cc8,0
+PyCQA/bandit,dbefd0428e3ec2ebbbe7b381f3b79d0560782fed,Fix references to the default branch name (#810),https://github.com/PyCQA/bandit/commit/dbefd0428e3ec2ebbbe7b381f3b79d0560782fed,0
+PyCQA/bandit,c4372a095f2ccdb6665bc8f3d555957473aeb8b1,Better hashlib check for Python 3.9 (#805),https://github.com/PyCQA/bandit/commit/c4372a095f2ccdb6665bc8f3d555957473aeb8b1,4
+PyCQA/bandit,d1622bf0432f0205e0035bcf87f3e22346ccd386,Add new plugin to check use of pyghmi (#803),https://github.com/PyCQA/bandit/commit/d1622bf0432f0205e0035bcf87f3e22346ccd386,0
+PyCQA/bandit,6b6b896fa735e8f5a9c5eb6d31e6682f301eed32,Check value of usedforsecurity for hashlib (#798),https://github.com/PyCQA/bandit/commit/6b6b896fa735e8f5a9c5eb6d31e6682f301eed32,0
+PyCQA/bandit,1c407d45c26fb353ddb16196f7970ab0372df69b,Change up how CWE is formatted (#788),https://github.com/PyCQA/bandit/commit/1c407d45c26fb353ddb16196f7970ab0372df69b,0
+PyCQA/bandit,05c7d899a848e0f5e49c8bfe2d4f3076c94b6fb4,Add functional test of snmp_security_check (#791),https://github.com/PyCQA/bandit/commit/05c7d899a848e0f5e49c8bfe2d4f3076c94b6fb4,0
+PyCQA/bandit,c405e4e2c4d59810673c987116ee019b40445a34,Fix up warnings in output of tox (#793),https://github.com/PyCQA/bandit/commit/c405e4e2c4d59810673c987116ee019b40445a34,0
+PyCQA/bandit,fafa82287d45727c6fc1b35761695f8fd5cda22d,Removal of the CWEMAP dict (#789),https://github.com/PyCQA/bandit/commit/fafa82287d45727c6fc1b35761695f8fd5cda22d,2
+PyCQA/bandit,7d6ab4a3e503843df3da389ce32ab30832d71474,Including CWE information (#613),https://github.com/PyCQA/bandit/commit/7d6ab4a3e503843df3da389ce32ab30832d71474,9
+PyCQA/bandit,626c84525865cac552741cbc01881dfa6596956b,Use released version of gh-action-pypi-publish (#784),https://github.com/PyCQA/bandit/commit/626c84525865cac552741cbc01881dfa6596956b,0
+PyCQA/bandit,ca4475fb2d7c3fef7cd81594c3c431677372ca3d,Added snmp_security check plugin for various SNMP checks (#403),https://github.com/PyCQA/bandit/commit/ca4475fb2d7c3fef7cd81594c3c431677372ca3d,2
+PyCQA/bandit,68f43ebd7a4d09d4393b3704721c33229a77c9a4,Fix README.rst (#365),https://github.com/PyCQA/bandit/commit/68f43ebd7a4d09d4393b3704721c33229a77c9a4,0
+PyCQA/bandit,0d05d40775dcd946e171ca00a330647e9ffa8898,Fixup typo (#769),https://github.com/PyCQA/bandit/commit/0d05d40775dcd946e171ca00a330647e9ffa8898,0
+PyCQA/bandit,3dca7820158ea04668878186a29d34e81bbd7fe3,Fix broken reported URL link for B107 (#751),https://github.com/PyCQA/bandit/commit/3dca7820158ea04668878186a29d34e81bbd7fe3,0
+PyCQA/bandit,a83c53fa7bbdd66f17591b46aae094fb589c29d5,fix reading initial values from .bandit (#722),https://github.com/PyCQA/bandit/commit/a83c53fa7bbdd66f17591b46aae094fb589c29d5,2
+PyCQA/bandit,aac3f16f45648a7756727286ba8f8f0cf5e7d408,Always use a Loader in yaml.load (#745),https://github.com/PyCQA/bandit/commit/aac3f16f45648a7756727286ba8f8f0cf5e7d408,0
+PyCQA/bandit,44f5c416cc0b7d62ca55b78e90bd1f7ee3d16082,PEP-518 support: configure bandit via pyproject.toml (#401),https://github.com/PyCQA/bandit/commit/44f5c416cc0b7d62ca55b78e90bd1f7ee3d16082,0
+PyCQA/bandit,2bd1ffaae1b83102af8587dcbeecd0b402dbec4e,Fix syntax errors in bug report (#720),https://github.com/PyCQA/bandit/commit/2bd1ffaae1b83102af8587dcbeecd0b402dbec4e,0
+PyCQA/bandit,a99b4c79567695241feb8d49e5520bf83f2019ee,Fix syntax error in bug report (#718),https://github.com/PyCQA/bandit/commit/a99b4c79567695241feb8d49e5520bf83f2019ee,0
+PyCQA/bandit,6765a57254a6563a26c946e94321d8d447c094fe,Add support for Python 3.9 (#650),https://github.com/PyCQA/bandit/commit/6765a57254a6563a26c946e94321d8d447c094fe,0
+PyCQA/bandit,e71e7bc1e7a2152cbda459cbb11561747d7b0490,Replace http with https URLs (#680),https://github.com/PyCQA/bandit/commit/e71e7bc1e7a2152cbda459cbb11561747d7b0490,0
+PyCQA/bandit,c9aa204aa8fc8de1b6d82ff2603360747cfeff77,More complete removal of Python2 code (#674),https://github.com/PyCQA/bandit/commit/c9aa204aa8fc8de1b6d82ff2603360747cfeff77,2
+PyCQA/bandit,82db41a1c1f2d55c0a1fafc9250580639d82342d,Add the column offset to the issue model (#618),https://github.com/PyCQA/bandit/commit/82db41a1c1f2d55c0a1fafc9250580639d82342d,0
+PyCQA/bandit,b59bebaa378bbe86c000b6f325daf7619dac2c90,Clearer message for subprocess module use (#667),https://github.com/PyCQA/bandit/commit/b59bebaa378bbe86c000b6f325daf7619dac2c90,0
+PyCQA/bandit,8295ded4101610c6dc7224c261d80accb4775f1e,Remove blacklist call to input() (#662),https://github.com/PyCQA/bandit/commit/8295ded4101610c6dc7224c261d80accb4775f1e,0
+PyCQA/bandit,efa623e33fdd152a80cc1652cd0474a55ae65491,Remove universal support on the wheel (#655),https://github.com/PyCQA/bandit/commit/efa623e33fdd152a80cc1652cd0474a55ae65491,0
+PyCQA/bandit,34836a6e894ba800e02712747fa87cc49ad1c224,Merge pull request #651 from PyCQA/ericwb-patch-1,https://github.com/PyCQA/bandit/commit/34836a6e894ba800e02712747fa87cc49ad1c224,0
+PyCQA/bandit,d5dfbff00d7d66e58ff237a34dc6175af638f5df,Merge branch 'master' into ericwb-patch-1,https://github.com/PyCQA/bandit/commit/d5dfbff00d7d66e58ff237a34dc6175af638f5df,0
+PyCQA/bandit,f64148f9e128a7bf60088ca76574abe00892c8c9,Merge branch 'master' into ericwb-patch-1,https://github.com/PyCQA/bandit/commit/f64148f9e128a7bf60088ca76574abe00892c8c9,0
+PyCQA/bandit,69bcf405e56d7b1d36093bfebb0400fb64af7f48,GitHub Action to publish to Test PyPI,https://github.com/PyCQA/bandit/commit/69bcf405e56d7b1d36093bfebb0400fb64af7f48,0
+PyCQA/bandit,539da77f82fac81d4711c59eebac490a030b83d4,Merge pull request #645 from DrGFreeman/644-noqa-rendered-in-docs,https://github.com/PyCQA/bandit/commit/539da77f82fac81d4711c59eebac490a030b83d4,0
+PyCQA/bandit,7765e7754c4d7626b42b434d490cfb75b440e608,Fix # noqa rendering in docs,https://github.com/PyCQA/bandit/commit/7765e7754c4d7626b42b434d490cfb75b440e608,0
+PyCQA/bandit,b78c938c0bd03d201932570f5e054261e10c5750,"Drop Python2 build, test, and install",https://github.com/PyCQA/bandit/commit/b78c938c0bd03d201932570f5e054261e10c5750,0
+PyCQA/bandit,89548b983715f798f74c805f11c51b49c2d93c26,[FIX] blacklist: fix typo in import_ftplib,https://github.com/PyCQA/bandit/commit/89548b983715f798f74c805f11c51b49c2d93c26,0
+PyCQA/bandit,bbe99a8863a248c753c0af2da4b8b15265e86fed,Fix issue #574,https://github.com/PyCQA/bandit/commit/bbe99a8863a248c753c0af2da4b8b15265e86fed,0
+PyCQA/bandit,8127716355048540e4baf6e1f9735583008c8714,Merge pull request #591 from PyCQA/ericwb-patch-1,https://github.com/PyCQA/bandit/commit/8127716355048540e4baf6e1f9735583008c8714,0
+PyCQA/bandit,3b8806f46ae4790ca0353114ce859a697c875ab0,Merge pull request #590 from bavedarnow/patch-1,https://github.com/PyCQA/bandit/commit/3b8806f46ae4790ca0353114ce859a697c875ab0,0
+PyCQA/bandit,eb7d63233a6d33d130925ad0f49eab87964104d4,Fix typo for activating venv,https://github.com/PyCQA/bandit/commit/eb7d63233a6d33d130925ad0f49eab87964104d4,0
+PyCQA/bandit,5a1c4f0c54efa3c8f430618255a3f6b193e14aa3,Merge pull request #586 from adambenali/fix-colorama,https://github.com/PyCQA/bandit/commit/5a1c4f0c54efa3c8f430618255a3f6b193e14aa3,0
+PyCQA/bandit,7cf613909249eb08eed25e9f677f0b18f683c50c,Fix colorama not being disabled after being used,https://github.com/PyCQA/bandit/commit/7cf613909249eb08eed25e9f677f0b18f683c50c,0
+PyCQA/bandit,e082c1234838ab182bd451116fd77c4b8a9ad29a,Cleanup some typos in recent contributor guide,https://github.com/PyCQA/bandit/commit/e082c1234838ab182bd451116fd77c4b8a9ad29a,0
+PyCQA/bandit,a55e65d975cfdf91bf8d753ab140d6f40574714b,Merge pull request #583 from look4regev/patch-1,https://github.com/PyCQA/bandit/commit/a55e65d975cfdf91bf8d753ab140d6f40574714b,0
+PyCQA/bandit,dc6cef13c9b30f5ab0c627f2e8f346530a4af2a2,Merge branch 'master' into patch-1,https://github.com/PyCQA/bandit/commit/dc6cef13c9b30f5ab0c627f2e8f346530a4af2a2,0
+PyCQA/bandit,3e145301c7a4696a4fa973a64478c833aad9a2ed,Merge pull request #582 from Glyphack/fix-contributing-typo,https://github.com/PyCQA/bandit/commit/3e145301c7a4696a4fa973a64478c833aad9a2ed,0
+PyCQA/bandit,e261e20c8cefa589445ecbc2dcc3500e75a6b638,Fix contributing typo.,https://github.com/PyCQA/bandit/commit/e261e20c8cefa589445ecbc2dcc3500e75a6b638,0
+PyCQA/bandit,fa5981ef160ea54c08bad91351ff59921546706b,Add contributing.md file,https://github.com/PyCQA/bandit/commit/fa5981ef160ea54c08bad91351ff59921546706b,0
+PyCQA/bandit,985749aca50609fc2c8c707fa0c2f6a10d38da85,Add sha1 to the list of insecure hashes,https://github.com/PyCQA/bandit/commit/985749aca50609fc2c8c707fa0c2f6a10d38da85,0
+PyCQA/bandit,79e0502a99adb1a1bce2869faab4dc6b186fe2a6,"Fix docs for B610,B611,B703 (#555)",https://github.com/PyCQA/bandit/commit/79e0502a99adb1a1bce2869faab4dc6b186fe2a6,0
+PyCQA/bandit,5ac8b8bf0a364a5222080db7c7e1951c0901e7a2,Ignore common directories by default,https://github.com/PyCQA/bandit/commit/5ac8b8bf0a364a5222080db7c7e1951c0901e7a2,0
+PyCQA/bandit,9c5ec4a83dff1c9192d8c19ad0213de1cdfae0b0,Fix readme file on Extending Bandit on list things (#534),https://github.com/PyCQA/bandit/commit/9c5ec4a83dff1c9192d8c19ad0213de1cdfae0b0,0
+PyCQA/bandit,b05a37634cd8eed9731d88188755a3c5c5bd6f6c,fix the documentation file README.rst on Vulnerability Tests and Extending Bandit,https://github.com/PyCQA/bandit/commit/b05a37634cd8eed9731d88188755a3c5c5bd6f6c,0
+PyCQA/bandit,c47fdd9f9898d5394b869745b62fe6e149854301,fix B603 docstring,https://github.com/PyCQA/bandit/commit/c47fdd9f9898d5394b869745b62fe6e149854301,0
+PyCQA/bandit,610b800223acb10342eb7a91ac146c91cc24a155,get_url returns different urls calling twice (bug #506) (#507),https://github.com/PyCQA/bandit/commit/610b800223acb10342eb7a91ac146c91cc24a155,0
+PyCQA/bandit,3d0824676974e7e2e9635c10bc4f12e261f1dbdf,Fix 3.8 errors (#509),https://github.com/PyCQA/bandit/commit/3d0824676974e7e2e9635c10bc4f12e261f1dbdf,0
+PyCQA/bandit,d25f3fc5f0f2bd8a251f252e9d81118c4947ae0e,Performance fix (#502),https://github.com/PyCQA/bandit/commit/d25f3fc5f0f2bd8a251f252e9d81118c4947ae0e,0
+PyCQA/bandit,047e6bfc90cf27e736aaeb9ca7a0bac4fad4f8b8,add test for regression and fix directory exclusion without wildcards (#489),https://github.com/PyCQA/bandit/commit/047e6bfc90cf27e736aaeb9ca7a0bac4fad4f8b8,0
+PyCQA/bandit,823138f418905a99fb7bbff8bb35b97f6dc9e5ab,Remove pycryptodome blacklist (#470),https://github.com/PyCQA/bandit/commit/823138f418905a99fb7bbff8bb35b97f6dc9e5ab,0
+PyCQA/bandit,fb18e17a7af3650f4cf0616a114c1742e0409136,Interpret wildcards in the file exclusion list (#450),https://github.com/PyCQA/bandit/commit/fb18e17a7af3650f4cf0616a114c1742e0409136,0
+PyCQA/bandit,09b0207e2b1a2e17c0f68aee401333abeb5eef66,Fix context class (#449),https://github.com/PyCQA/bandit/commit/09b0207e2b1a2e17c0f68aee401333abeb5eef66,0
+PyCQA/bandit,3371a6d0c083f797db845e118c6c941d9949fe0e,Merge pull request #451 from bitcoinhodler/patch-1,https://github.com/PyCQA/bandit/commit/3371a6d0c083f797db845e118c6c941d9949fe0e,0
+PyCQA/bandit,436a282cd7b0403f1b669a716c4a6d73103956dc,Fix typo in README,https://github.com/PyCQA/bandit/commit/436a282cd7b0403f1b669a716c4a6d73103956dc,0
+PyCQA/bandit,682c38b26854ecab96001adce25ebfe8d794ec16,Fix ResourceWarning: unclosed file,https://github.com/PyCQA/bandit/commit/682c38b26854ecab96001adce25ebfe8d794ec16,0
+PyCQA/bandit,3747dc897fe182e108fb43ebdf1cff83e490d947,Fix DeprecationWarning: invalid escape sequence,https://github.com/PyCQA/bandit/commit/3747dc897fe182e108fb43ebdf1cff83e490d947,0
+PyCQA/bandit,917551afdf53a7a9b3470b3d3007e77452b6dbe2,Merge pull request #415 from BillBrower/patch-1,https://github.com/PyCQA/bandit/commit/917551afdf53a7a9b3470b3d3007e77452b6dbe2,0
+PyCQA/bandit,bcd5929d24e816b1e63ba029335494436b14ff92,Merge branch 'master' into patch-1,https://github.com/PyCQA/bandit/commit/bcd5929d24e816b1e63ba029335494436b14ff92,1
+PyCQA/bandit,c55e46cc0fce33918360a1716f3dc95c7893d33d,Supporting CSafeLoader in yaml.load plugin (#436),https://github.com/PyCQA/bandit/commit/c55e46cc0fce33918360a1716f3dc95c7893d33d,0
+PyCQA/bandit,82d67c7f88f4c6757974e0d620b56a7daaec74e9,Remove paramiko invoke_shell and fix example (#377),https://github.com/PyCQA/bandit/commit/82d67c7f88f4c6757974e0d620b56a7daaec74e9,0
+PyCQA/bandit,0a3d571784634a9866ec0baeb78e538c064a5aa0,Bump PyYAML minimum version to 3.13 (#432),https://github.com/PyCQA/bandit/commit/0a3d571784634a9866ec0baeb78e538c064a5aa0,0
+PyCQA/bandit,d2374482dd0311e4477896ba8a338f670ad49e3f,Fix sql injection check for f-strings,https://github.com/PyCQA/bandit/commit/d2374482dd0311e4477896ba8a338f670ad49e3f,1
+PyCQA/bandit,40988fdb94fe9b16ad99d0080f81f515a586a326,Fix terminal colors not displaying properly on Windows,https://github.com/PyCQA/bandit/commit/40988fdb94fe9b16ad99d0080f81f515a586a326,0
+PyCQA/bandit,fe1c1166bba9511c9d351323c0c949bde159b127,Add missing custom formatter doc (#406) (#421),https://github.com/PyCQA/bandit/commit/fe1c1166bba9511c9d351323c0c949bde159b127,0
+PyCQA/bandit,3ed22667afda2583c4acb7dce3c57daba2053f99,Fix pep8,https://github.com/PyCQA/bandit/commit/3ed22667afda2583c4acb7dce3c57daba2053f99,0
+PyCQA/bandit,d90eecfc2695aedc939cf9c195c5df7f9d1fae10,Fix ast.arg check on python2,https://github.com/PyCQA/bandit/commit/d90eecfc2695aedc939cf9c195c5df7f9d1fae10,0
+PyCQA/bandit,deaf0caea616226220b4f948dba5bbc14486abf6,Merge branch 'master' into patch-1,https://github.com/PyCQA/bandit/commit/deaf0caea616226220b4f948dba5bbc14486abf6,0
+PyCQA/bandit,f475c67694656b7b8398b04652fd8e91abfa92bd,Fix more info line to be in color also (#408),https://github.com/PyCQA/bandit/commit/f475c67694656b7b8398b04652fd8e91abfa92bd,0
+PyCQA/bandit,a6507b78b992da2afb12a5123d89379b1229d244,Merge branch 'master' into patch-1,https://github.com/PyCQA/bandit/commit/a6507b78b992da2afb12a5123d89379b1229d244,0
+PyCQA/bandit,abd08edd1587ca3cc671d33422662cd266b21273,Fix B611 doc title,https://github.com/PyCQA/bandit/commit/abd08edd1587ca3cc671d33422662cd266b21273,0
+PyCQA/bandit,57007dd28b2876aa924a399ac653bf74d15543a7,Fix Pylint warning W0612: use of unused variables (#389),https://github.com/PyCQA/bandit/commit/57007dd28b2876aa924a399ac653bf74d15543a7,0
+PyCQA/bandit,4dd85ae01945b0f2c84a0a8813c5814c88ae6180,fix pep8,https://github.com/PyCQA/bandit/commit/4dd85ae01945b0f2c84a0a8813c5814c88ae6180,0
+PyCQA/bandit,07972ec86ca671769d6db08283ee5e2062dd5ae1,fix comments on #387,https://github.com/PyCQA/bandit/commit/07972ec86ca671769d6db08283ee5e2062dd5ae1,0
+PyCQA/bandit,2497a389354354ab7b61f884ce8a8e9dd16fe877,Properly handle nosec strings in code,https://github.com/PyCQA/bandit/commit/2497a389354354ab7b61f884ce8a8e9dd16fe877,0
+PyCQA/bandit,be011b167077f66ee14223b6346b3dd4decbf510,Fix line max chars,https://github.com/PyCQA/bandit/commit/be011b167077f66ee14223b6346b3dd4decbf510,0
+PyCQA/bandit,49dc3a5800e40ea73160e1c1b06972af9dc125c6,Fix pep8,https://github.com/PyCQA/bandit/commit/49dc3a5800e40ea73160e1c1b06972af9dc125c6,0
+PyCQA/bandit,7c4b9fa8b8d980a27c53000eb1961d436da7b223,"Add option -q, --quiet, --silent to hide output",https://github.com/PyCQA/bandit/commit/7c4b9fa8b8d980a27c53000eb1961d436da7b223,2
+PyCQA/bandit,e2594a9bab6064947913383fec12096d8f9475b4,Fix custom format argument handling (#380),https://github.com/PyCQA/bandit/commit/e2594a9bab6064947913383fec12096d8f9475b4,2
+PyCQA/bandit,0293e9deb78d3e3e7d817e0aacccec4d1e210040,New plugin to check for ignoring host keys,https://github.com/PyCQA/bandit/commit/0293e9deb78d3e3e7d817e0aacccec4d1e210040,1
+PyCQA/bandit,257b5ddafe9faf5d3c7a631aa7b8852d5c9f9521,Fixed crash on dynamic import traversal (#369),https://github.com/PyCQA/bandit/commit/257b5ddafe9faf5d3c7a631aa7b8852d5c9f9521,0
+PyCQA/bandit,679e883cc10a8768314f4d12115849c0d6b50788,Change ver 1.4.1 references to 1.5.0,https://github.com/PyCQA/bandit/commit/679e883cc10a8768314f4d12115849c0d6b50788,0
+PyCQA/bandit,62f0c3ce132e1df8077ebd029f06170221b60a6a,Add external documentation references (#368),https://github.com/PyCQA/bandit/commit/62f0c3ce132e1df8077ebd029f06170221b60a6a,0
+PyCQA/bandit,21d3328fc54839391f4f8d8e40788087f58a220a,Add more_info URL to csv formatter (#361),https://github.com/PyCQA/bandit/commit/21d3328fc54839391f4f8d8e40788087f58a220a,0
+PyCQA/bandit,a39b408fd0b9e5cb1dd997fc9477db20d5c28380,Add more_info URL to screen formatter (#360),https://github.com/PyCQA/bandit/commit/a39b408fd0b9e5cb1dd997fc9477db20d5c28380,0
+PyCQA/bandit,a9fe5e564d713099001ea11af04571d30a435f10,Add more_info URL to text output (#359),https://github.com/PyCQA/bandit/commit/a9fe5e564d713099001ea11af04571d30a435f10,0
+PyCQA/bandit,5976774760c8d46d6ac2d5b84a4ddfd196664d88,Merge pull request #358 from PyCQA/ericwb-patch-1,https://github.com/PyCQA/bandit/commit/5976774760c8d46d6ac2d5b84a4ddfd196664d88,0
+PyCQA/bandit,5ec55d5bce7f151fa781db7f09bba825d25a6fa6,Add experimental Python 3.8-dev to test with (#337),https://github.com/PyCQA/bandit/commit/5ec55d5bce7f151fa781db7f09bba825d25a6fa6,0
+PyCQA/bandit,cad4e1235e79e74d052555a43b76f523fe5a38a1,Report dill usage (#347),https://github.com/PyCQA/bandit/commit/cad4e1235e79e74d052555a43b76f523fe5a38a1,0
+PyCQA/bandit,95fee78e328b8f0a13599eb4899bfac05f1e4f9f,Add more_info URL to XML output (#354),https://github.com/PyCQA/bandit/commit/95fee78e328b8f0a13599eb4899bfac05f1e4f9f,0
+PyCQA/bandit,1b11246e595675abad1669ce7f64f4a17caf9e8f,Re-eanble functional tests as part of CI (#348),https://github.com/PyCQA/bandit/commit/1b11246e595675abad1669ce7f64f4a17caf9e8f,0
+PyCQA/bandit,0d9551cf2fc48998528c24c6d5756b2026cac0cb,Use html.escape() instead of cgi.escape(),https://github.com/PyCQA/bandit/commit/0d9551cf2fc48998528c24c6d5756b2026cac0cb,0
+PyCQA/bandit,f099f245e5e4036a1f8847b2ee3f29e83e2a80dd,Repair some broken see also links in the doc,https://github.com/PyCQA/bandit/commit/f099f245e5e4036a1f8847b2ee3f29e83e2a80dd,0
+PyCQA/bandit,f5af24064e31e4168bf02134167f93b976f1e885,fix pep8 line length issues,https://github.com/PyCQA/bandit/commit/f5af24064e31e4168bf02134167f93b976f1e885,0
+PyCQA/bandit,652fd7145ea8acded255ad120933ea182bea044c,Remove openstack specific utils.exec checks,https://github.com/PyCQA/bandit/commit/652fd7145ea8acded255ad120933ea182bea044c,0
+PyCQA/bandit,02bad2e42311f420aef52dcd9806d66516ef594d,Add development status classifier,https://github.com/PyCQA/bandit/commit/02bad2e42311f420aef52dcd9806d66516ef594d,0
+PyCQA/bandit,386eb19952f4e41fb8f0cfa3786c1b2fe2202f3d,Fix doc #310,https://github.com/PyCQA/bandit/commit/386eb19952f4e41fb8f0cfa3786c1b2fe2202f3d,0
+PyCQA/bandit,82f877bc478f068c6f91a6b739546828dadef4da,Fix code review,https://github.com/PyCQA/bandit/commit/82f877bc478f068c6f91a6b739546828dadef4da,1
+PyCQA/bandit,d3f8164ecbb799eaa2576f8a0d144662f3e725a4,Fast fix for #286,https://github.com/PyCQA/bandit/commit/d3f8164ecbb799eaa2576f8a0d144662f3e725a4,1
+PyCQA/bandit,d93eed549242013ca10f6fc990dd4234b69958f7,Fix wording (deprecated -> removed),https://github.com/PyCQA/bandit/commit/d93eed549242013ca10f6fc990dd4234b69958f7,0
+PyCQA/bandit,5b430f36f7f8ff771469acf99655db6ae8eaec49,Remove OpenStack-specific plugins,https://github.com/PyCQA/bandit/commit/5b430f36f7f8ff771469acf99655db6ae8eaec49,4
+PyCQA/bandit,b32917e774733c096ca6c279ae0be3a8c06f2d0f,Add missing documentation link for B703,https://github.com/PyCQA/bandit/commit/b32917e774733c096ca6c279ae0be3a8c06f2d0f,0
+PyCQA/bandit,23c5fae9abf8372b939c63e25def73bc85645e76,Merge pull request #292 from ehooo/django_sql_injection,https://github.com/PyCQA/bandit/commit/23c5fae9abf8372b939c63e25def73bc85645e76,3
+PyCQA/bandit,84edb8567051e159fdc1a54c0c1c8052a84a55e4,Add missing B413 import_pycrypto in README,https://github.com/PyCQA/bandit/commit/84edb8567051e159fdc1a54c0c1c8052a84a55e4,0
+PyCQA/bandit,40e8314e2a859c11e49e381941b330a752dc541c,Merge pull request #301 from PyCQA/ericwb-patch-1,https://github.com/PyCQA/bandit/commit/40e8314e2a859c11e49e381941b330a752dc541c,0
+PyCQA/bandit,0404b6ca8e3b3f7d5112b16b75d4c3bdb292d1ad,Fix pep8,https://github.com/PyCQA/bandit/commit/0404b6ca8e3b3f7d5112b16b75d4c3bdb292d1ad,0
+PyCQA/bandit,113ef519b6c97876717dd07ad2af68a185bfb016,Add Django SQL injection,https://github.com/PyCQA/bandit/commit/113ef519b6c97876717dd07ad2af68a185bfb016,3
+PyCQA/bandit,094a2d46374e71c2c3f5aa505acbc3014f4896f3,Create an issue template for the project,https://github.com/PyCQA/bandit/commit/094a2d46374e71c2c3f5aa505acbc3014f4896f3,0
+PyCQA/bandit,2c8754f05b9c0f7353552c89a3ca6adc23a27a37,Adds basic .travis.yaml,https://github.com/PyCQA/bandit/commit/2c8754f05b9c0f7353552c89a3ca6adc23a27a37,0
+PyCQA/bandit,32773c19f2e82ae3af2cb06169e92616b95f9d0b,Migrate to new PyPI website,https://github.com/PyCQA/bandit/commit/32773c19f2e82ae3af2cb06169e92616b95f9d0b,0
+PyCQA/bandit,9d848dd79eb43b62ad389675b1d8c8a79bd59b5b,Add bandit ID to prefix of more_info link,https://github.com/PyCQA/bandit/commit/9d848dd79eb43b62ad389675b1d8c8a79bd59b5b,0
+PyCQA/bandit,91a796b805be34332054a9b5448914093b1a3395,Fix false positives for pyCrypto,https://github.com/PyCQA/bandit/commit/91a796b805be34332054a9b5448914093b1a3395,0
+PyCQA/bandit,a41f4ecab5af0ed03aab4f2637dc42b27a002045,"Merge ""Fix infinite loop issue""",https://github.com/PyCQA/bandit/commit/a41f4ecab5af0ed03aab4f2637dc42b27a002045,0
+PyCQA/bandit,dc3ff2d91785eee49394bd7c8b9e75ddfb616ea4,Add pycrypto to blacklist,https://github.com/PyCQA/bandit/commit/dc3ff2d91785eee49394bd7c8b9e75ddfb616ea4,1
+PyCQA/bandit,ab4b04fc6d1e3a942c98991dce4ddc787a6fdd3b,Add more_info URL to the YAML output,https://github.com/PyCQA/bandit/commit/ab4b04fc6d1e3a942c98991dce4ddc787a6fdd3b,0
+PyCQA/bandit,6bdc6c0c4eb14a3f50b4eac026895869c33d8bb4,Sort the complete plugin list,https://github.com/PyCQA/bandit/commit/6bdc6c0c4eb14a3f50b4eac026895869c33d8bb4,0
+PyCQA/bandit,90f031c9735639a5049f742c8f5cf4eb8fc8b055,Fix infinite loop issue,https://github.com/PyCQA/bandit/commit/90f031c9735639a5049f742c8f5cf4eb8fc8b055,0
+PyCQA/bandit,5cf8589bf7bd5b8f860207b5ed1841ca8c69cf9a,Update hacking requirement,https://github.com/PyCQA/bandit/commit/5cf8589bf7bd5b8f860207b5ed1841ca8c69cf9a,0
+PyCQA/bandit,32c27bdcdf220ff24c4c29fa000ef0dffdc47d59,Update documentation,https://github.com/PyCQA/bandit/commit/32c27bdcdf220ff24c4c29fa000ef0dffdc47d59,0
+PyCQA/bandit,185a2a8a4297aa7250a3c137b9e561ebb485c3b5,Add more_info URL to the JSON output,https://github.com/PyCQA/bandit/commit/185a2a8a4297aa7250a3c137b9e561ebb485c3b5,0
+PyCQA/bandit,bb1bf81856c1467f85ee138b727568d192bd179a,Add module loaded through importlib,https://github.com/PyCQA/bandit/commit/bb1bf81856c1467f85ee138b727568d192bd179a,0
+PyCQA/bandit,0b3cd391c1ab1678488f01a7bc0e13160cfa9f55,Remove extra section from README.rst,https://github.com/PyCQA/bandit/commit/0b3cd391c1ab1678488f01a7bc0e13160cfa9f55,0
+PyCQA/bandit,446e7f72498460861d094e640d74def93275c91b,Allow specifying targets in ini file,https://github.com/PyCQA/bandit/commit/446e7f72498460861d094e640d74def93275c91b,0
+PyCQA/bandit,1a3d28b44064c84fccf6d922a4f0816add0bf0f9,[Trivialfix]Fix typos,https://github.com/PyCQA/bandit/commit/1a3d28b44064c84fccf6d922a4f0816add0bf0f9,0
+PyCQA/bandit,84a2eb97bb8263df9025861bdcf5df491eb7c73a,"Merge ""Fixed order of arguments in assertEqual""",https://github.com/PyCQA/bandit/commit/84a2eb97bb8263df9025861bdcf5df491eb7c73a,0
+PyCQA/bandit,2455f9564046f3fb93e45c4704528d4836879a00,Fixed order of arguments in assertEqual,https://github.com/PyCQA/bandit/commit/2455f9564046f3fb93e45c4704528d4836879a00,0
+PyCQA/bandit,a23af1b72d5725982491cd9b0258b53f954f201a,"Merge ""Blacklist call of ssl._create_unverified_context""",https://github.com/PyCQA/bandit/commit/a23af1b72d5725982491cd9b0258b53f954f201a,0
+PyCQA/bandit,e40af23ff67fc89f024c5a73f93c8d9a0b43caa3,Blacklist call of ssl._create_unverified_context,https://github.com/PyCQA/bandit/commit/e40af23ff67fc89f024c5a73f93c8d9a0b43caa3,0
+PyCQA/bandit,fbd4e83efe15987f4f8a4608456211fba37fc80b,Yet Another Formatter (yaml),https://github.com/PyCQA/bandit/commit/fbd4e83efe15987f4f8a4608456211fba37fc80b,1
+PyCQA/bandit,be0483a603407ba8f8110da415161cee26f142b8,Repair the more info links for two blacklist calls,https://github.com/PyCQA/bandit/commit/be0483a603407ba8f8110da415161cee26f142b8,0
+PyCQA/bandit,6a1a4b120d005cee2ed0c8be723dd367b549b3f0,Docs for B319 listed twice,https://github.com/PyCQA/bandit/commit/6a1a4b120d005cee2ed0c8be723dd367b549b3f0,0
+PyCQA/bandit,35e35446b00bceea5bebf028567e4f99bd29dc98,Add sha-1 to list of insecure hashes,https://github.com/PyCQA/bandit/commit/35e35446b00bceea5bebf028567e4f99bd29dc98,0
+PyCQA/bandit,4cf3af7d4cdaeace8992a6726e20ba63d3a22018,Allow config for high and medium severity key sizes,https://github.com/PyCQA/bandit/commit/4cf3af7d4cdaeace8992a6726e20ba63d3a22018,9
+PyCQA/bandit,c924b2b12f1edf0e026e8e13a81005995e20d4fb,HTTPSConnection is secure in newer Python,https://github.com/PyCQA/bandit/commit/c924b2b12f1edf0e026e8e13a81005995e20d4fb,0
+PyCQA/bandit,e17af5cac241ef9ee72d47b90cb883d28274d5fd,Typo fix: targetting => targeting,https://github.com/PyCQA/bandit/commit/e17af5cac241ef9ee72d47b90cb883d28274d5fd,0
+PyCQA/bandit,6ce60806ca8a44d8a8b37050539e2b2f9a54b847,Alter SQL injection plugin to consider .format strings,https://github.com/PyCQA/bandit/commit/6ce60806ca8a44d8a8b37050539e2b2f9a54b847,0
+PyCQA/bandit,96632b53eb20ab6e572c2f147c114a1f626df738,Alter SQL Injection plugin SQL check,https://github.com/PyCQA/bandit/commit/96632b53eb20ab6e572c2f147c114a1f626df738,0
+PyCQA/bandit,17c737a391f5f8b1f41d77a40da4429d739e09f5,Fixing some UTF8 encoding issues in file names,https://github.com/PyCQA/bandit/commit/17c737a391f5f8b1f41d77a40da4429d739e09f5,0
+PyCQA/bandit,0acf9f95db259fa8fa63549eaf6fd6f76e49b8c2,Fix up nits in the README and other files,https://github.com/PyCQA/bandit/commit/0acf9f95db259fa8fa63549eaf6fd6f76e49b8c2,0
+PyCQA/bandit,e3f19b0dcac53594eb3fa861a9eef288c85f25da,Fixing partial path detection for Windows,https://github.com/PyCQA/bandit/commit/e3f19b0dcac53594eb3fa861a9eef288c85f25da,0
+PyCQA/bandit,2486ae68ad0fc398b106b208f246a41a643f3aeb,Make Bandit's HTML report pass markup validation,https://github.com/PyCQA/bandit/commit/2486ae68ad0fc398b106b208f246a41a643f3aeb,0
+PyCQA/bandit,ce17a94c06c1abac0a9b0f0a57b6561b23f36ec4,"Add functional tests for B308, B321, and B402",https://github.com/PyCQA/bandit/commit/ce17a94c06c1abac0a9b0f0a57b6561b23f36ec4,0
+PyCQA/bandit,1e4116407d236d0794972ad5ae68453235473bb3,"Merge ""Fix LOG marker to follow the Python 3 guideline""",https://github.com/PyCQA/bandit/commit/1e4116407d236d0794972ad5ae68453235473bb3,0
+PyCQA/bandit,8330a3b3b97c2c9ff9ac3434366f6ccf757e88d1,Fix LOG marker to follow the Python 3 guideline,https://github.com/PyCQA/bandit/commit/8330a3b3b97c2c9ff9ac3434366f6ccf757e88d1,0
+PyCQA/bandit,584c45247d3ffe9c4b8a9c25b71be6570b7012ec,Fix pylint too-many-return-statements errors,https://github.com/PyCQA/bandit/commit/584c45247d3ffe9c4b8a9c25b71be6570b7012ec,0
+PyCQA/bandit,c65767fdaacdc048542d00ce79b1fc85814de41b,"Merge ""Fix pylint old-style-class errors""",https://github.com/PyCQA/bandit/commit/c65767fdaacdc048542d00ce79b1fc85814de41b,0
+PyCQA/bandit,dd76a783394432d01273ac24f522606a4728ca02,Fixing B502 and B503 developer docs,https://github.com/PyCQA/bandit/commit/dd76a783394432d01273ac24f522606a4728ca02,0
+PyCQA/bandit,8dc538483595e6cab69f67346759e50a1116e8b9,Fix pylint old-style-class errors,https://github.com/PyCQA/bandit/commit/8dc538483595e6cab69f67346759e50a1116e8b9,0
+PyCQA/bandit,7c7d0f854ed40287bbd3c7a6f0ff90ffc59c7bdf,"Merge ""Fix for pylint no-self-use error""",https://github.com/PyCQA/bandit/commit/7c7d0f854ed40287bbd3c7a6f0ff90ffc59c7bdf,0
+PyCQA/bandit,06681f0e985e5d99c87214353049f559348cf575,Fix for pylint no-self-use error,https://github.com/PyCQA/bandit/commit/06681f0e985e5d99c87214353049f559348cf575,0
+PyCQA/bandit,784ff6a5eb0e13035ce5786ca899775c90b3d6c1,Show team and repo badges on README,https://github.com/PyCQA/bandit/commit/784ff6a5eb0e13035ce5786ca899775c90b3d6c1,0
+PyCQA/bandit,92e2d5530915a60e4fa4f256787301d156cfd05d,"Replace 'assertFalse(a in b)' with 'assertNotIn(a, b)'",https://github.com/PyCQA/bandit/commit/92e2d5530915a60e4fa4f256787301d156cfd05d,0
+PyCQA/bandit,3be3ca4de0b379d0d6713b28eec6c3b2ec9fcca9,Trivial fixes based on pylint scan,https://github.com/PyCQA/bandit/commit/3be3ca4de0b379d0d6713b28eec6c3b2ec9fcca9,4
+PyCQA/bandit,4bfa1b69be6de4e34eb8bd89e5248833be61b12b,Fix typo in test_set.py,https://github.com/PyCQA/bandit/commit/4bfa1b69be6de4e34eb8bd89e5248833be61b12b,0
+PyCQA/bandit,438bc0d5a3f3025d99763aa11c3694ace97683ee,"Replace 'assertTrue(a in b)' with 'assertIn(a, b)'",https://github.com/PyCQA/bandit/commit/438bc0d5a3f3025d99763aa11c3694ace97683ee,0
+PyCQA/bandit,a6abf7fa6162318d730bc94092ab4ae42e7c38b6,Fix unit tests for newest GitPython,https://github.com/PyCQA/bandit/commit/a6abf7fa6162318d730bc94092ab4ae42e7c38b6,0
+PyCQA/bandit,2e4e7cd2f7a33370e11920731a27b64f71641640,Fix blacklist filtering,https://github.com/PyCQA/bandit/commit/2e4e7cd2f7a33370e11920731a27b64f71641640,0
+PyCQA/bandit,e98515faf0a1089baafbd106694b02e548581b32,Use qualname list to avoid false positive on load(),https://github.com/PyCQA/bandit/commit/e98515faf0a1089baafbd106694b02e548581b32,1
+PyCQA/bandit,9d77f75e7823dc5b92c44c2d7af3a586183d0e80,Fix a typo in test_set.py,https://github.com/PyCQA/bandit/commit/9d77f75e7823dc5b92c44c2d7af3a586183d0e80,0
+PyCQA/bandit,be75a4f63713d0df1e7a92c8df1d769b7c606efa,Fix typos in config.py & utils.py,https://github.com/PyCQA/bandit/commit/be75a4f63713d0df1e7a92c8df1d769b7c606efa,0
+PyCQA/bandit,7ecf945921cb82bd1dbaf0c3b04c0e919c62733c,Small typo fix 'balcklist' in docstring,https://github.com/PyCQA/bandit/commit/7ecf945921cb82bd1dbaf0c3b04c0e919c62733c,0
+PyCQA/bandit,97932384ed50e019fd922ad7cf485acbda8de29b,Fix remaining object imports and enforce the rule,https://github.com/PyCQA/bandit/commit/97932384ed50e019fd922ad7cf485acbda8de29b,0
+PyCQA/bandit,5163b7561bff167ca27cb3c301e403510fea4885,Fix order of arguments in assertEqual,https://github.com/PyCQA/bandit/commit/5163b7561bff167ca27cb3c301e403510fea4885,0
+PyCQA/bandit,df86344e75811759885a9bc39ac5afe9bf8dc7dd,Fix html escaping,https://github.com/PyCQA/bandit/commit/df86344e75811759885a9bc39ac5afe9bf8dc7dd,0
+PyCQA/bandit,d4b99165c3bd9c73193afcfb7f8c14ce4932d91f,Fix some errors in utils.py & calls.py,https://github.com/PyCQA/bandit/commit/d4b99165c3bd9c73193afcfb7f8c14ce4932d91f,0
+PyCQA/bandit,bfa759781c2a090c2b6606c37ff34c0b7ceef15f,Fix some typos in the files,https://github.com/PyCQA/bandit/commit/bfa759781c2a090c2b6606c37ff34c0b7ceef15f,0
+PyCQA/bandit,694dfaa370cce54ea23169123554598bad0e1be6,Some spelling error need to be fixed,https://github.com/PyCQA/bandit/commit/694dfaa370cce54ea23169123554598bad0e1be6,0
+PyCQA/bandit,07f84cb5f5e7c1055e6feaa0fe93afa471de0ac3,Add check for httpoxy vulnerability,https://github.com/PyCQA/bandit/commit/07f84cb5f5e7c1055e6feaa0fe93afa471de0ac3,1
+PyCQA/bandit,a54ab7561d48e4011615add306b50b757859fb96,Fixing jenkins failing on coverage reporting,https://github.com/PyCQA/bandit/commit/a54ab7561d48e4011615add306b50b757859fb96,0
+PyCQA/bandit,ee6cb05538c745b0a6ceb9c219788fa49e2810a5,Fix the typo in the files,https://github.com/PyCQA/bandit/commit/ee6cb05538c745b0a6ceb9c219788fa49e2810a5,0
+PyCQA/bandit,bb1538f047355a0951cd6cd1309b6d3edb8e81c0,Add a py35 tox venv for upcoming py35 support,https://github.com/PyCQA/bandit/commit/bb1538f047355a0951cd6cd1309b6d3edb8e81c0,0
+PyCQA/bandit,b630d972ed86a0487244ababa26e47f27665dc4b,Add reno for release notes management,https://github.com/PyCQA/bandit/commit/b630d972ed86a0487244ababa26e47f27665dc4b,0
+PyCQA/bandit,5e72d254d180b5896a15e6fcb1b62f864ba38f70,Add man page for bandit command line,https://github.com/PyCQA/bandit/commit/5e72d254d180b5896a15e6fcb1b62f864ba38f70,0
+PyCQA/bandit,d66a103d63f0050022d8cd9254f395a3c582c00b,"Fixing a bug exposed with try, except, ... tests",https://github.com/PyCQA/bandit/commit/d66a103d63f0050022d8cd9254f395a3c582c00b,0
+PyCQA/bandit,cac2f22dee8222a30ab81534f3f5deb5aebe9afb,Added try_except_continue plugin,https://github.com/PyCQA/bandit/commit/cac2f22dee8222a30ab81534f3f5deb5aebe9afb,2
+PyCQA/bandit,acf870b42b4ae18ee0f154b9e72357026a00560d,"Merge ""Fixing documentation for hardcoded password tests""",https://github.com/PyCQA/bandit/commit/acf870b42b4ae18ee0f154b9e72357026a00560d,4
+PyCQA/bandit,24eba90ccee1d119bf51cd98b24284ea8551fe79,Fixing documentation for hardcoded password tests,https://github.com/PyCQA/bandit/commit/24eba90ccee1d119bf51cd98b24284ea8551fe79,4
+PyCQA/bandit,32a7679c5e8a316138681ddc17385de6b2d9409d,Improving config handling,https://github.com/PyCQA/bandit/commit/32a7679c5e8a316138681ddc17385de6b2d9409d,0
+PyCQA/bandit,58c2a43909b645788335ab1a86b9aa31575d36f1,Fix OpenStack coverage tool,https://github.com/PyCQA/bandit/commit/58c2a43909b645788335ab1a86b9aa31575d36f1,0
+PyCQA/bandit,c683327c976f9f72c6a07e2cdb7c40f0d32f0a80,Breaking up blacklist import IDs,https://github.com/PyCQA/bandit/commit/c683327c976f9f72c6a07e2cdb7c40f0d32f0a80,0
+PyCQA/bandit,e01b1bf4c379205b56a1d71c30e32dda3c6de0cb,The source of include/exclude conditions was incorrectly reported,https://github.com/PyCQA/bandit/commit/e01b1bf4c379205b56a1d71c30e32dda3c6de0cb,0
+PyCQA/bandit,b0a3c7dbaa89cce315d3d0d054f8cb281c40e229,Fix typos in CLI output,https://github.com/PyCQA/bandit/commit/b0a3c7dbaa89cce315d3d0d054f8cb281c40e229,0
+PyCQA/bandit,23b4f6a5c7d1423355099b4b6089f45ce4ab3c5a,Updated legacy profile support,https://github.com/PyCQA/bandit/commit/23b4f6a5c7d1423355099b4b6089f45ce4ab3c5a,1
+PyCQA/bandit,80a89e3ba2c34a19c00933216d8c1c4d121a1fe6,Take2: Only use screen when terminal is tty,https://github.com/PyCQA/bandit/commit/80a89e3ba2c34a19c00933216d8c1c4d121a1fe6,0
+PyCQA/bandit,58b6fe376142f16702f24daf9dd1129c02f27c57,Only use screen when terminal is tty,https://github.com/PyCQA/bandit/commit/58b6fe376142f16702f24daf9dd1129c02f27c57,0
+PyCQA/bandit,5b6d25e5e44a56c319ac3ae236558df71a9f8a2e,Fixed missing new lines from Skipped file report,https://github.com/PyCQA/bandit/commit/5b6d25e5e44a56c319ac3ae236558df71a9f8a2e,0
+PyCQA/bandit,a047e0fec0fbd000740ce86c51792da88118eb03,Fixing an encoding error while writing HTML,https://github.com/PyCQA/bandit/commit/a047e0fec0fbd000740ce86c51792da88118eb03,0
+PyCQA/bandit,07f9bf0dc3814f187b364df2c8cb564714d4f0f8,Fixing bug when filtering blacklists,https://github.com/PyCQA/bandit/commit/07f9bf0dc3814f187b364df2c8cb564714d4f0f8,1
+PyCQA/bandit,78c87e5385ccff5d20a5e654b0466257b0e486f2,Pass environment variables of proxy to tox,https://github.com/PyCQA/bandit/commit/78c87e5385ccff5d20a5e654b0466257b0e486f2,0
+PyCQA/bandit,6550212cb7e23174e4b692f8fa0c3f29891f5e60,Fixed typo in  bandit/formatters/xml.py,https://github.com/PyCQA/bandit/commit/6550212cb7e23174e4b692f8fa0c3f29891f5e60,0
+PyCQA/bandit,67ed78447ce58d8b4b45376360577a21239f0b5a,"Merge ""(re)Fixing output of bytes""",https://github.com/PyCQA/bandit/commit/67ed78447ce58d8b4b45376360577a21239f0b5a,0
+PyCQA/bandit,f74dd0dc1320ebbab5a841766ad5d4f7900d0234,(re)Fixing output of bytes,https://github.com/PyCQA/bandit/commit/f74dd0dc1320ebbab5a841766ad5d4f7900d0234,0
+PyCQA/bandit,27deb984408d6721c7ea2cc80e14dbbfec91a098,"Merge ""Fixing bug with output chars in formatters""",https://github.com/PyCQA/bandit/commit/27deb984408d6721c7ea2cc80e14dbbfec91a098,0
+PyCQA/bandit,54bf3cbe1213237342e904e023130587c6f71c51,Fixing bug with output chars in formatters,https://github.com/PyCQA/bandit/commit/54bf3cbe1213237342e904e023130587c6f71c51,0
+PyCQA/bandit,c0f31a8e6e8cfcd11d7bb198234f1cff9c7fd889,Add blacklist plugins to help output,https://github.com/PyCQA/bandit/commit/c0f31a8e6e8cfcd11d7bb198234f1cff9c7fd889,0
+PyCQA/bandit,f574733f1679f34c914e509a992e342065645d68,Old config compatibility,https://github.com/PyCQA/bandit/commit/f574733f1679f34c914e509a992e342065645d68,0
+PyCQA/bandit,c479db7b8baa4784fe99870d526079ff1180a6aa,"Merge ""Fixing hang in get_module_qualname_from_path""",https://github.com/PyCQA/bandit/commit/c479db7b8baa4784fe99870d526079ff1180a6aa,0
+PyCQA/bandit,bb83d3fce1dca0df6fd15ead4fc6acd4ebdf539e,Fixing hang in get_module_qualname_from_path,https://github.com/PyCQA/bandit/commit/bb83d3fce1dca0df6fd15ead4fc6acd4ebdf539e,0
+PyCQA/bandit,fd118a17ec43c25c0584847ba33af7a1ef084a3d,"Merge ""This fixes the blacklist to look like a plugin so we can filter it""",https://github.com/PyCQA/bandit/commit/fd118a17ec43c25c0584847ba33af7a1ef084a3d,1
+PyCQA/bandit,b382ca51c95abb31e31d23070e16c7e49a46101c,Broken link in file jinja2_templates.py,https://github.com/PyCQA/bandit/commit/b382ca51c95abb31e31d23070e16c7e49a46101c,0
+PyCQA/bandit,ea7f7812433c855244721e6cb1eedcfb420eab41,Misspelling in file plugins/index.rst,https://github.com/PyCQA/bandit/commit/ea7f7812433c855244721e6cb1eedcfb420eab41,0
+PyCQA/bandit,d86a53b744f7a197693d49676ed992750d0eea53,This fixes the blacklist to look like a plugin so we can filter it,https://github.com/PyCQA/bandit/commit/d86a53b744f7a197693d49676ed992750d0eea53,1
+PyCQA/bandit,c0e33112e634b8965b9d44ed802dd0231115990e,Misspelling in main developers doc title,https://github.com/PyCQA/bandit/commit/c0e33112e634b8965b9d44ed802dd0231115990e,0
+PyCQA/bandit,99c78437d664a43ed12333d1973c601170f0d6bd,"Merge ""Fixing a bug and cleaning up in blacklisting code""",https://github.com/PyCQA/bandit/commit/99c78437d664a43ed12333d1973c601170f0d6bd,0
+PyCQA/bandit,e46d1efc8a25e2f84f61a77d8d85426eb44e330c,Broken link in file mako_templates.py,https://github.com/PyCQA/bandit/commit/e46d1efc8a25e2f84f61a77d8d85426eb44e330c,0
+PyCQA/bandit,5180c65d26a0493cf7d49047fe7bd2b843e02653,Fixing a bug and cleaning up in blacklisting code,https://github.com/PyCQA/bandit/commit/5180c65d26a0493cf7d49047fe7bd2b843e02653,0
+PyCQA/bandit,ae1cff7fae600e90b8f5202cec29c45fca72f5d3,Cleaning code,https://github.com/PyCQA/bandit/commit/ae1cff7fae600e90b8f5202cec29c45fca72f5d3,0
+PyCQA/bandit,7f9524e63ef38c73584c4032f87a1b24a04d1a60,"Merge ""Only decode output of subprocess""",https://github.com/PyCQA/bandit/commit/7f9524e63ef38c73584c4032f87a1b24a04d1a60,0
+PyCQA/bandit,d1031478e85b13dc7ae019814301cfaf62ff601f,Only decode output of subprocess,https://github.com/PyCQA/bandit/commit/d1031478e85b13dc7ae019814301cfaf62ff601f,0
+PyCQA/bandit,e51a28bf2efb60939548e592993a6a81f1d8ffc0,Support hacking H104,https://github.com/PyCQA/bandit/commit/e51a28bf2efb60939548e592993a6a81f1d8ffc0,0
+PyCQA/bandit,493fab490d9a24b73f7099b39dd597c6bf272b15,Misspelling in error message in file screen.py,https://github.com/PyCQA/bandit/commit/493fab490d9a24b73f7099b39dd597c6bf272b15,0
+PyCQA/bandit,564fd2d1cbd423ed7edbd6f2cada4b9252fb8970,"Merge ""Small typo fix on the tests include/exclude""",https://github.com/PyCQA/bandit/commit/564fd2d1cbd423ed7edbd6f2cada4b9252fb8970,0
+PyCQA/bandit,6aad875a62296e25681ed5f24c1062e860ddff07,Small typo fix on the tests include/exclude,https://github.com/PyCQA/bandit/commit/6aad875a62296e25681ed5f24c1062e860ddff07,0
+PyCQA/bandit,59813ff4cf263dfbd82a11a21ea70239640719e2,Update docs to include references to EC keys,https://github.com/PyCQA/bandit/commit/59813ff4cf263dfbd82a11a21ea70239640719e2,0
+PyCQA/bandit,e4e26865c6140e5ded820a94f5650688d408771b,Allow list of tests to skip to be specified on command line,https://github.com/PyCQA/bandit/commit/e4e26865c6140e5ded820a94f5650688d408771b,0
+PyCQA/bandit,90e1db43b7b6a02eb5fb34736a57dcd8067cabd3,Enable pep8 testing on tests,https://github.com/PyCQA/bandit/commit/90e1db43b7b6a02eb5fb34736a57dcd8067cabd3,0
+PyCQA/bandit,f50547f351efe40e72be8b4dfea8d81b413c62ea,Allow list of tests specified on command line,https://github.com/PyCQA/bandit/commit/f50547f351efe40e72be8b4dfea8d81b413c62ea,0
+PyCQA/bandit,3d86b83c620855efb9746f3038e60f8fbc14942b,"Fixed a misspelling of the word ""referred""",https://github.com/PyCQA/bandit/commit/3d86b83c620855efb9746f3038e60f8fbc14942b,0
+PyCQA/bandit,ddcfe20a3aa594df0b2b5218efe7094fb0b0a824,Fix db error when running python34 unit tests,https://github.com/PyCQA/bandit/commit/ddcfe20a3aa594df0b2b5218efe7094fb0b0a824,0
+PyCQA/bandit,c4853d6fa576234d508bd708ef51cf9ff242c006,"Merge ""Fix output encoding in baseline""",https://github.com/PyCQA/bandit/commit/c4853d6fa576234d508bd708ef51cf9ff242c006,0
+PyCQA/bandit,a9afc2037fd3b265cd9758293b343d830aa65d8c,Use == for str comparison,https://github.com/PyCQA/bandit/commit/a9afc2037fd3b265cd9758293b343d830aa65d8c,0
+PyCQA/bandit,fc8f90ff48d347623b03ab81c4f003b303365c09,Fix comment about value returned,https://github.com/PyCQA/bandit/commit/fc8f90ff48d347623b03ab81c4f003b303365c09,0
+PyCQA/bandit,426a492dd5e9d432de5605bc69a067be92dc799f,Fix output encoding in baseline,https://github.com/PyCQA/bandit/commit/426a492dd5e9d432de5605bc69a067be92dc799f,0
+PyCQA/bandit,32c5921185a31735dc715ed352c0980b6b3d1739,Fix detached head baseline,https://github.com/PyCQA/bandit/commit/32c5921185a31735dc715ed352c0980b6b3d1739,0
+PyCQA/bandit,31109ae4f653f0d9b1cc45509a3fe8de24608a1f,Fix text and html output whitespace,https://github.com/PyCQA/bandit/commit/31109ae4f653f0d9b1cc45509a3fe8de24608a1f,0
+PyCQA/bandit,51b1781a97a27b0c15309c6fc7d36d54d81bc7c7,Adding test IDs,https://github.com/PyCQA/bandit/commit/51b1781a97a27b0c15309c6fc7d36d54d81bc7c7,1
+PyCQA/bandit,d96a5c3bbdd4d0161b672d016c119e9e3492f11f,Fix codesec tox env,https://github.com/PyCQA/bandit/commit/d96a5c3bbdd4d0161b672d016c119e9e3492f11f,0
+PyCQA/bandit,222c0809b38d2e59b28f7e8042fb2fc6cf2dddd0,Use sphinx autodoc to generate docs from docstring,https://github.com/PyCQA/bandit/commit/222c0809b38d2e59b28f7e8042fb2fc6cf2dddd0,0
+PyCQA/bandit,9c8d702d27f9f4069190ad316618c0611c915437,Fix multiline string with missing space,https://github.com/PyCQA/bandit/commit/9c8d702d27f9f4069190ad316618c0611c915437,0
+PyCQA/bandit,bea850978073175715660c43109014c658de8c66,Config generator: fix a typo,https://github.com/PyCQA/bandit/commit/bea850978073175715660c43109014c658de8c66,0
+PyCQA/bandit,388e6d3f02084a6ee3c8c98db6ec4899d5d8f85a,Improving node visitor,https://github.com/PyCQA/bandit/commit/388e6d3f02084a6ee3c8c98db6ec4899d5d8f85a,0
+PyCQA/bandit,a727880811f62e190600ebafa607cea0e7511960,Add functional runtime tests,https://github.com/PyCQA/bandit/commit/a727880811f62e190600ebafa607cea0e7511960,0
+PyCQA/bandit,2d96febcfdecc866bccda3781e2fb0b53e504d91,Fixing a simple issue in results count to fix exit code,https://github.com/PyCQA/bandit/commit/2d96febcfdecc866bccda3781e2fb0b53e504d91,0
+PyCQA/bandit,83d5d843c18b45c7c54d082b58c5bd179baa23ea,"Merge ""os.system et al. all spawn a shell so we should use the same logic""",https://github.com/PyCQA/bandit/commit/83d5d843c18b45c7c54d082b58c5bd179baa23ea,1
+PyCQA/bandit,cb08cb03efb4a7e2611333ee7b49643e0bf905c7,os.system et al. all spawn a shell so we should use the same logic,https://github.com/PyCQA/bandit/commit/cb08cb03efb4a7e2611333ee7b49643e0bf905c7,1
+PyCQA/bandit,a5618ba21629baeea9860cb89ba289b6d75400f1,Fixing bug when encountering tuple params,https://github.com/PyCQA/bandit/commit/a5618ba21629baeea9860cb89ba289b6d75400f1,1
+PyCQA/bandit,6b19466d9c6ab81f3e21c293d3a48fad9649a3c8,"Merge ""Fix simple bug in text formatter excluded files list""",https://github.com/PyCQA/bandit/commit/6b19466d9c6ab81f3e21c293d3a48fad9649a3c8,0
+PyCQA/bandit,6cee1760ac875bbc94bfcc38d5d361afd27f0aaf,Fix simple bug in text formatter excluded files list,https://github.com/PyCQA/bandit/commit/6cee1760ac875bbc94bfcc38d5d361afd27f0aaf,0
+PyCQA/bandit,2a328eb78682d052d22f997e3e722cf7c3230bd1,Fixing bug in injection test,https://github.com/PyCQA/bandit/commit/2a328eb78682d052d22f997e3e722cf7c3230bd1,0
+PyCQA/bandit,3157f0d67f866bb99a4b76ce6a0bd283c7429878,"Merge ""Fixing Baseline when a filter is used""",https://github.com/PyCQA/bandit/commit/3157f0d67f866bb99a4b76ce6a0bd283c7429878,0
+PyCQA/bandit,8333dd4503eaa80ac18897da0d93cb8f0d54e32b,Fixing Baseline when a filter is used,https://github.com/PyCQA/bandit/commit/8333dd4503eaa80ac18897da0d93cb8f0d54e32b,0
+PyCQA/bandit,a14b91bac193ae1b44a135184adcd3e1bcce36fb,Fixing Traceback with Bad File,https://github.com/PyCQA/bandit/commit/a14b91bac193ae1b44a135184adcd3e1bcce36fb,0
+PyCQA/bandit,b258d08a7c6a275ebfdb2ab035dc110feb4a46cc,Added missing HTTP verbs to the requests checks,https://github.com/PyCQA/bandit/commit/b258d08a7c6a275ebfdb2ab035dc110feb4a46cc,0
+PyCQA/bandit,5cd862738b5d566b3bd4d419b8d305cf4730da8a,"Merge ""Fixing some docs formatting""",https://github.com/PyCQA/bandit/commit/5cd862738b5d566b3bd4d419b8d305cf4730da8a,0
+PyCQA/bandit,e52fcefb92780218dd2e1359309620d02773998d,Fixing some docs formatting,https://github.com/PyCQA/bandit/commit/e52fcefb92780218dd2e1359309620d02773998d,0
+PyCQA/bandit,70d01d3bc7d34e5d508a654617941f9d71639d2b,Distinguish between formatted and simple commands,https://github.com/PyCQA/bandit/commit/70d01d3bc7d34e5d508a654617941f9d71639d2b,1
+PyCQA/bandit,9723afb9b8b42a04a62197a02afc75f2eb33fb5f,Ensure each plugin is linked to appropriate sec guidance doc,https://github.com/PyCQA/bandit/commit/9723afb9b8b42a04a62197a02afc75f2eb33fb5f,0
+PyCQA/bandit,b3cba501e653590ed987f626442958e0da0d4662,Add missing documentation for start_process_with_a_shell,https://github.com/PyCQA/bandit/commit/b3cba501e653590ed987f626442958e0da0d4662,0
+PyCQA/bandit,517ab2f7abf1f5c17956a38589b235c76aa84323,Add check for Flask app debug=True usage,https://github.com/PyCQA/bandit/commit/517ab2f7abf1f5c17956a38589b235c76aa84323,2
+PyCQA/bandit,e90b76698a9d2468ad07cc01cadbf0f9e5a1e7e8,"Merge ""Fixing -n behaviour""",https://github.com/PyCQA/bandit/commit/e90b76698a9d2468ad07cc01cadbf0f9e5a1e7e8,1
+PyCQA/bandit,057e63f3aed61fdee4b0bb07e58917e6d3ce692a,Check for insecure cipher modes,https://github.com/PyCQA/bandit/commit/057e63f3aed61fdee4b0bb07e58917e6d3ce692a,0
+PyCQA/bandit,7e99e228308824262857d21b33e75783c238bfce,Python 3 compatibility fix,https://github.com/PyCQA/bandit/commit/7e99e228308824262857d21b33e75783c238bfce,0
+PyCQA/bandit,45c290aa25a21fd928caf9cc47f01b4227fb16c3,Fixing -n behaviour,https://github.com/PyCQA/bandit/commit/45c290aa25a21fd928caf9cc47f01b4227fb16c3,1
+PyCQA/bandit,604ca79759b3d23a01ce661fad58469e525e13b8,Improved tests for hardcoded passwords,https://github.com/PyCQA/bandit/commit/604ca79759b3d23a01ce661fad58469e525e13b8,7
+PyCQA/bandit,b7d41d57b7ad9b38a2018fb1364072baf0941c4b,Adding docs for SSL/TLS version tests,https://github.com/PyCQA/bandit/commit/b7d41d57b7ad9b38a2018fb1364072baf0941c4b,0
+PyCQA/bandit,6d79bdb952886a1ffa390b4652921d129e30c5f3,Fixing bug introduced by manager refactor,https://github.com/PyCQA/bandit/commit/6d79bdb952886a1ffa390b4652921d129e30c5f3,0
+PyCQA/bandit,c55fc79ebc61911b238e23942c7fbe36320499c8,Removing argument printing,https://github.com/PyCQA/bandit/commit/c55fc79ebc61911b238e23942c7fbe36320499c8,1
+PyCQA/bandit,e445248a4948b3d927e9189a061d8ebe3b65900c,Test coverage of manager now at 100%,https://github.com/PyCQA/bandit/commit/e445248a4948b3d927e9189a061d8ebe3b65900c,2
+PyCQA/bandit,02e58c504e5d258624e5d97c3b8590d616cbf49c,Fixing swapped parameters for issue severity and confidence,https://github.com/PyCQA/bandit/commit/02e58c504e5d258624e5d97c3b8590d616cbf49c,2
+PyCQA/bandit,b157a39adf175c169e88e5b5815bb3aa0d8c90b0,Fix running when empty config file,https://github.com/PyCQA/bandit/commit/b157a39adf175c169e88e5b5815bb3aa0d8c90b0,0
+PyCQA/bandit,70effc407030f483b1a651b30b2c8e49d9cc2c6b,Remove tox envirnoment for pypy,https://github.com/PyCQA/bandit/commit/70effc407030f483b1a651b30b2c8e49d9cc2c6b,0
+PyCQA/bandit,21514e8d4da8cc93a3016003714d5882746c59ee,Adding HTML formatter,https://github.com/PyCQA/bandit/commit/21514e8d4da8cc93a3016003714d5882746c59ee,1
+PyCQA/bandit,6cb63dbbd8c152e9e034b2ed0e1af9f42170b872,Unit testing of meta_ast.py,https://github.com/PyCQA/bandit/commit/6cb63dbbd8c152e9e034b2ed0e1af9f42170b872,0
+PyCQA/bandit,db898e896d25415086f3cc537d343ebe2c78f393,"Merge ""Fix manager having no attribute '_init_logger'""",https://github.com/PyCQA/bandit/commit/db898e896d25415086f3cc537d343ebe2c78f393,0
+PyCQA/bandit,39b5fed6248f00551bee6d5d55fa1a0916213337,Skip '/tests/' by default,https://github.com/PyCQA/bandit/commit/39b5fed6248f00551bee6d5d55fa1a0916213337,0
+PyCQA/bandit,1f021719ff1b845a39143fec1471ed4774b68e2f,Merge the two weak_cryptographic_key checks,https://github.com/PyCQA/bandit/commit/1f021719ff1b845a39143fec1471ed4774b68e2f,5
+PyCQA/bandit,dcc6f63ef24ceeaf3ba67cc9ce07591c8e309520,Fix manager having no attribute '_init_logger',https://github.com/PyCQA/bandit/commit/dcc6f63ef24ceeaf3ba67cc9ce07591c8e309520,0
+PyCQA/bandit,f0dd2e152abf3c68114b72156971d32edb22c3ef,Add a new check for weak RSA and DSA key sizes,https://github.com/PyCQA/bandit/commit/f0dd2e152abf3c68114b72156971d32edb22c3ef,3
+PyCQA/bandit,6c041175174a2e1be425ec0d0e0881f38dd38d7a,Use testtools rather than unittest,https://github.com/PyCQA/bandit/commit/6c041175174a2e1be425ec0d0e0881f38dd38d7a,0
+PyCQA/bandit,7230a474e646312423a45d61e4986c7c5c222747,"Merge ""Fix typos in bandit.yaml""",https://github.com/PyCQA/bandit/commit/7230a474e646312423a45d61e4986c7c5c222747,0
+PyCQA/bandit,65e9eb7e3cfdf21e012898a90888654e708bab14,Fix typos in bandit.yaml,https://github.com/PyCQA/bandit/commit/65e9eb7e3cfdf21e012898a90888654e708bab14,0
+PyCQA/bandit,13adff1929d798d4324c11aaed187b1d011da8a7,Trivial fix to beautify bandit.yaml,https://github.com/PyCQA/bandit/commit/13adff1929d798d4324c11aaed187b1d011da8a7,0
+PyCQA/bandit,db168cf2f13bdd2af67426aa3ade1344272aecae,Py3 compatibility fix in lines_with_context() util,https://github.com/PyCQA/bandit/commit/db168cf2f13bdd2af67426aa3ade1344272aecae,0
+PyCQA/bandit,8a5685d043c453f967b338b8ccb682e7bfc887bd,Better function to count lines in a file,https://github.com/PyCQA/bandit/commit/8a5685d043c453f967b338b8ccb682e7bfc887bd,0
+PyCQA/bandit,8cecf885648c7360790a68ce187313f212fe421e,Find bandit.yaml when in virtualenv,https://github.com/PyCQA/bandit/commit/8cecf885648c7360790a68ce187313f212fe421e,1
+PyCQA/bandit,21de753e298077ccc49941b9a2243e480111e52a,Add other known weak MD hash modules,https://github.com/PyCQA/bandit/commit/21de753e298077ccc49941b9a2243e480111e52a,0
+PyCQA/bandit,9f43cabd45420ade99eac3670fb95f236c29ea60,Capture warnings for missing plugins or config in normal logging,https://github.com/PyCQA/bandit/commit/9f43cabd45420ade99eac3670fb95f236c29ea60,1
+PyCQA/bandit,9dc80a59cfcbc390c220c173bbec143332e8e8ae,NIT: Fix missing python 3 in classifier,https://github.com/PyCQA/bandit/commit/9dc80a59cfcbc390c220c173bbec143332e8e8ae,0
+PyCQA/bandit,8ab91dff15d617b36c5d07955388bfdd117cb6c2,"Merge ""Fixes exit code for filtered results""",https://github.com/PyCQA/bandit/commit/8ab91dff15d617b36c5d07955388bfdd117cb6c2,0
+PyCQA/bandit,61bfa6e202ea7ba8e1231725eb1dfd8b3368e51c,"Merge ""Bug fix for SQL tests""",https://github.com/PyCQA/bandit/commit/61bfa6e202ea7ba8e1231725eb1dfd8b3368e51c,1
+PyCQA/bandit,c6a7f7948b7b6a8d0368c82227191640427011ff,Fixes exit code for filtered results,https://github.com/PyCQA/bandit/commit/c6a7f7948b7b6a8d0368c82227191640427011ff,0
+PyCQA/bandit,f696ce0a0dd2007177558a0566e58f8ac44acb44,Bug fix for SQL tests,https://github.com/PyCQA/bandit/commit/f696ce0a0dd2007177558a0566e58f8ac44acb44,1
+PyCQA/bandit,7a7cfd28e83a8ba9c4459b6578e971855084ff27,Add all available plugins to an example profile,https://github.com/PyCQA/bandit/commit/7a7cfd28e83a8ba9c4459b6578e971855084ff27,0
+PyCQA/bandit,45ff8d345fbd1d0842c9dbb771ee945663ed107b,"Merge ""Improving SQL Injection detection""",https://github.com/PyCQA/bandit/commit/45ff8d345fbd1d0842c9dbb771ee945663ed107b,6
+PyCQA/bandit,20c12cde76b705ac27d6e4e34725e90afc0a91ff,Register plugins included as entry-points,https://github.com/PyCQA/bandit/commit/20c12cde76b705ac27d6e4e34725e90afc0a91ff,0
+PyCQA/bandit,a2fd5a72124065cb7f81dcdaf58d4d5913e739fd,Improving SQL Injection detection,https://github.com/PyCQA/bandit/commit/a2fd5a72124065cb7f81dcdaf58d4d5913e739fd,6
+PyCQA/bandit,01439f09649144011d8d1e5b0c3bc6c781ac4f9e,"Merge ""Fixing up random to be less noisy""",https://github.com/PyCQA/bandit/commit/01439f09649144011d8d1e5b0c3bc6c781ac4f9e,2
+PyCQA/bandit,782ca732716c49f018aacbc7cdc14cbfd10c402b,Fixing up random to be less noisy,https://github.com/PyCQA/bandit/commit/782ca732716c49f018aacbc7cdc14cbfd10c402b,2
+PyCQA/bandit,5dca7b7dc2daf520d815f55d5aa07a1654fc610f,"Merge ""Bug fix in secret_config_option plugin""",https://github.com/PyCQA/bandit/commit/5dca7b7dc2daf520d815f55d5aa07a1654fc610f,0
+PyCQA/bandit,19ccd6f4e3a25b9f4df0e03a742007c7a3a2a4ed,Bug fix in secret_config_option plugin,https://github.com/PyCQA/bandit/commit/19ccd6f4e3a25b9f4df0e03a742007c7a3a2a4ed,0
+PyCQA/bandit,2da53779a6564f74fc366c18120256f09b968415,"Adding test for Try, Except, Pass",https://github.com/PyCQA/bandit/commit/2da53779a6564f74fc366c18120256f09b968415,1
+PyCQA/bandit,ca48f32924540483bed71c3b24182c7bfd68ae9a,Removing statement buffer,https://github.com/PyCQA/bandit/commit/ca48f32924540483bed71c3b24182c7bfd68ae9a,3
+PyCQA/bandit,055598028a84a6ec1545d7035463767d78c04729,Adding a test for partial paths in exec functions,https://github.com/PyCQA/bandit/commit/055598028a84a6ec1545d7035463767d78c04729,1
+PyCQA/bandit,36e28b331ade2a815c232cc8b6c0d4cc69b2f66d,Address multiline node lineno inaccuracies,https://github.com/PyCQA/bandit/commit/36e28b331ade2a815c232cc8b6c0d4cc69b2f66d,1
+PyCQA/bandit,059bd48cfb4c707acff2ebc0fef75caef82718de,Actually rely on entry-points for formatters,https://github.com/PyCQA/bandit/commit/059bd48cfb4c707acff2ebc0fef75caef82718de,0
+PyCQA/bandit,12e9f2e6246ef33181314ac40261b2af76fc189c,Adding paramiko injections check to blacklist functions,https://github.com/PyCQA/bandit/commit/12e9f2e6246ef33181314ac40261b2af76fc189c,0
+PyCQA/bandit,fe0bc8977d74c1857732c859354f2cf0166e4fd9,"Fix config option fallback if ""include"" missing",https://github.com/PyCQA/bandit/commit/fe0bc8977d74c1857732c859354f2cf0166e4fd9,0
+PyCQA/bandit,4af7ea6a20a4de03ec6f119829733a62a651db5d,Update example files to work on Python 2 & 3,https://github.com/PyCQA/bandit/commit/4af7ea6a20a4de03ec6f119829733a62a651db5d,0
+PyCQA/bandit,ddf75663ced7ca367eefe63f8f1032210b8fef5b,Add Python 3.4 compatibility to bandit,https://github.com/PyCQA/bandit/commit/ddf75663ced7ca367eefe63f8f1032210b8fef5b,2
+PyCQA/bandit,d6d1833ee44baa4763f968302db884de0a59771d,"Merge ""Adding documentation for SSL/TLS tests""",https://github.com/PyCQA/bandit/commit/d6d1833ee44baa4763f968302db884de0a59771d,0
+PyCQA/bandit,50d9c49e3f0d23c73bb31620be3da2c2632d5b00,Adding documentation for SSL/TLS tests,https://github.com/PyCQA/bandit/commit/50d9c49e3f0d23c73bb31620be3da2c2632d5b00,0
+PyCQA/bandit,6e2e387e4fb5a91867e8c7ea46ed8c7357df253a,Shift in result types & ranking scales,https://github.com/PyCQA/bandit/commit/6e2e387e4fb5a91867e8c7ea46ed8c7357df253a,2
+PyCQA/bandit,535ee589ad619226a3c105130773b74ac1285e7a,"Merge ""Fixed issue processing files containing invalid python""",https://github.com/PyCQA/bandit/commit/535ee589ad619226a3c105130773b74ac1285e7a,0
+PyCQA/bandit,001e0f98c8b41df709dd2aed2290d1088aa2b237,Fixed issue processing files containing invalid python,https://github.com/PyCQA/bandit/commit/001e0f98c8b41df709dd2aed2290d1088aa2b237,0
+PyCQA/bandit,26002c401781590e954ac0dfa7ea6a7fe32942f1,Fixing info output that was breaking JSON format,https://github.com/PyCQA/bandit/commit/26002c401781590e954ac0dfa7ea6a7fe32942f1,0
+PyCQA/bandit,5cc8b761f19922027b20f5caef124d1f850826de,fixing bandits config settings,https://github.com/PyCQA/bandit/commit/5cc8b761f19922027b20f5caef124d1f850826de,0
+PyCQA/bandit,bf0a33c5a2ebcaeb682201aefcdc718ddf64de8d,Fixing a bug with files listing when a file was skipped,https://github.com/PyCQA/bandit/commit/bf0a33c5a2ebcaeb682201aefcdc718ddf64de8d,0
+PyCQA/bandit,41fd5946fafb3e4b9ebfc8e430f3f4d0f7f82a21,Fixed -n flag processing,https://github.com/PyCQA/bandit/commit/41fd5946fafb3e4b9ebfc8e430f3f4d0f7f82a21,2
+PyCQA/bandit,6a4c1cc522849305b5967b161e17fda59ee8d1e2,Fix a couple of issues with handling multi-line strings,https://github.com/PyCQA/bandit/commit/6a4c1cc522849305b5967b161e17fda59ee8d1e2,2
+PyCQA/bandit,1214076c48cf3f60edb8bb0664e4406df19fb4fc,Fixed severity level filtering,https://github.com/PyCQA/bandit/commit/1214076c48cf3f60edb8bb0664e4406df19fb4fc,0
+PyCQA/bandit,eeadc251a39e9c4c2e32de576781edddceef2363,Fix new output file checking functionality,https://github.com/PyCQA/bandit/commit/eeadc251a39e9c4c2e32de576781edddceef2363,0
+PyCQA/bandit,cc3a4f0ae134af8037fcb6e8d3933d8b51170762,Fix vulnerability aggregation bug,https://github.com/PyCQA/bandit/commit/cc3a4f0ae134af8037fcb6e8d3933d8b51170762,0
+PyCQA/bandit,359124bd30b1c45744a46bec8faec94ebcedb3e7,Fixed nosec flagging,https://github.com/PyCQA/bandit/commit/359124bd30b1c45744a46bec8faec94ebcedb3e7,0
+PyCQA/bandit,e1f4f550773cd42e6007e0728ece1fb931614ff0,Tweaking severity for a few plugins,https://github.com/PyCQA/bandit/commit/e1f4f550773cd42e6007e0728ece1fb931614ff0,0
+PyCQA/bandit,f0655ee323b40298afcac66d3355973973ff6471,"Update the config file, and use yaml.safe_load()",https://github.com/PyCQA/bandit/commit/f0655ee323b40298afcac66d3355973973ff6471,0
+PyCQA/bandit,fc9192769883c2bff271453c630cf3a3b23aca48,Fixing uncaught 'InvalidModulePath' exception,https://github.com/PyCQA/bandit/commit/fc9192769883c2bff271453c630cf3a3b23aca48,0
+PyCQA/bandit,7db7f3528bdb211badb988999967458652e9a597,Fix a leftover tuple unpacking in reporting code,https://github.com/PyCQA/bandit/commit/7db7f3528bdb211badb988999967458652e9a597,0
+PyCQA/bandit,dc4278c3cbfc0529e1b0c859b4ae41838adea5ec,"Fixes for node_visitor, sql and hardcoded password tests",https://github.com/PyCQA/bandit/commit/dc4278c3cbfc0529e1b0c859b4ae41838adea5ec,0
+PyCQA/bandit,27eea75f3c7a215e230567ab3e7e26e29670c3fa,Add mako templating plugin and XSS profile,https://github.com/PyCQA/bandit/commit/27eea75f3c7a215e230567ab3e7e26e29670c3fa,3
+PyCQA/bandit,d4047594ad478f4405e3128637371243ed4ad82c,Refactored AST processing,https://github.com/PyCQA/bandit/commit/d4047594ad478f4405e3128637371243ed4ad82c,2
+PyCQA/bandit,6d6f2ce68ba25d5235ca4b1c8d7d3d2afb526e92,"Merge ""Adds line ranges, DRYs code, fixes #nosec""",https://github.com/PyCQA/bandit/commit/6d6f2ce68ba25d5235ca4b1c8d7d3d2afb526e92,2
+PyCQA/bandit,57147e9597a9d1897dbd8f9ecf5d8043f15e162e,"Merge ""Add documentation for exec, yaml, jinja2 plugins""",https://github.com/PyCQA/bandit/commit/57147e9597a9d1897dbd8f9ecf5d8043f15e162e,0
+PyCQA/bandit,8972342d0b924c6cec7c3fab31824fdff3537b92,Add check for secret=True on oslo password options,https://github.com/PyCQA/bandit/commit/8972342d0b924c6cec7c3fab31824fdff3537b92,1
+PyCQA/bandit,7d0ff362575f0ab07d9bccd63802b471181a1914,"assertEqual should be (expected, actual)",https://github.com/PyCQA/bandit/commit/7d0ff362575f0ab07d9bccd63802b471181a1914,0
+PyCQA/bandit,a8d3331822c218fbce67866f1fe32a4b3836f4f8,"Adds line ranges, DRYs code, fixes #nosec",https://github.com/PyCQA/bandit/commit/a8d3331822c218fbce67866f1fe32a4b3836f4f8,2
+PyCQA/bandit,5a67c47f3b4232d715779def2d120b83e2122ff2,"Add documentation for exec, yaml, jinja2 plugins",https://github.com/PyCQA/bandit/commit/5a67c47f3b4232d715779def2d120b83e2122ff2,0
+PyCQA/bandit,cf038fd89f28de6b54591af04b5f442914a1f04c,Adds jinja2 autocomplete=false test,https://github.com/PyCQA/bandit/commit/cf038fd89f28de6b54591af04b5f442914a1f04c,1
+PyCQA/bandit,7914121a3d80ed95f4eb60cda7b841a1df2a3419,Add INFO check for any use of rootwrap,https://github.com/PyCQA/bandit/commit/7914121a3d80ed95f4eb60cda7b841a1df2a3419,1
+PyCQA/bandit,2b27cabc1544ff51c4ef73cdd88fc8280d5e00e7,"Merge ""Add unaliased mod name to import_aliases; Fix tests""",https://github.com/PyCQA/bandit/commit/2b27cabc1544ff51c4ef73cdd88fc8280d5e00e7,0
+PyCQA/bandit,d70ec0d634448013cb9eaf332e20ffc4144c6ef1,Add unaliased mod name to import_aliases; Fix tests,https://github.com/PyCQA/bandit/commit/d70ec0d634448013cb9eaf332e20ffc4144c6ef1,0
+PyCQA/bandit,5d3a82d76470fe35ac0fe05cfe086e2c9852bd2f,Add yaml.load to blacklist with yaml example file,https://github.com/PyCQA/bandit/commit/5d3a82d76470fe35ac0fe05cfe086e2c9852bd2f,1
+PyCQA/bandit,8ba353603f00df5c9e9c26043251f30ea937cdce,"Fix a reported bug when bandit encounters ""__import__()""",https://github.com/PyCQA/bandit/commit/8ba353603f00df5c9e9c26043251f30ea937cdce,0
+PyCQA/bandit,f1404db46f5d6945bb98ad09d24b29f3951e1a46,Hardening bandit in the face of buggy plugins or odd ASTs,https://github.com/PyCQA/bandit/commit/f1404db46f5d6945bb98ad09d24b29f3951e1a46,0
+PyCQA/bandit,c4d1e35c56e84f6a23da33274b1090d8102b2859,Fixing an oversight when processing none-attr nodes,https://github.com/PyCQA/bandit/commit/c4d1e35c56e84f6a23da33274b1090d8102b2859,0
+PyCQA/bandit,4055d9ae8583a9b1a28fe3081551ca74b4492d19,"Refactoring ""checks_functions"" to check function definitions",https://github.com/PyCQA/bandit/commit/4055d9ae8583a9b1a28fe3081551ca74b4492d19,9
+PyCQA/bandit,f163ff01d0851ddd6a43fbcd3a89e1b915a92dce,Removing TODO (to be tracked in Bandit wiki),https://github.com/PyCQA/bandit/commit/f163ff01d0851ddd6a43fbcd3a89e1b915a92dce,0
+PyCQA/bandit,8e6697b063db4b3c7c4b292af7455e588ba29a05,Making Bandit into an installable package and adding tox tests,https://github.com/PyCQA/bandit/commit/8e6697b063db4b3c7c4b292af7455e588ba29a05,1
+PyCQA/bandit,39e1ffcbff3ca1db8f442fc2ef24ba122594bbc6,Adding a check to bandit for use of 'exec',https://github.com/PyCQA/bandit/commit/39e1ffcbff3ca1db8f442fc2ef24ba122594bbc6,2
+PyCQA/bandit,434a5b20717aaa10cc4044a94a0fe7bde9a79cde,"Merge ""Adding SSL/TLS protocol version checks""",https://github.com/PyCQA/bandit/commit/434a5b20717aaa10cc4044a94a0fe7bde9a79cde,3
+PyCQA/bandit,c819a3f32d99390eadc167c86cc756b12e1060ce,Adding SSL/TLS protocol version checks,https://github.com/PyCQA/bandit/commit/c819a3f32d99390eadc167c86cc756b12e1060ce,3
+PyCQA/bandit,6bdbf2e64dbc3c7b3ee2a031d30a1b2600dbf969,Merge pull request #26 from mcpeak/master,https://github.com/PyCQA/bandit/commit/6bdbf2e64dbc3c7b3ee2a031d30a1b2600dbf969,2
+PyCQA/bandit,db1a78d4de60e365b783386ead3612e5f8a50c7a,Bug fix for hardcoded passwords test,https://github.com/PyCQA/bandit/commit/db1a78d4de60e365b783386ead3612e5f8a50c7a,2
+PyCQA/bandit,6b1211b561383488cde26bc37b402a2f30b6e8aa,Updated configuration file,https://github.com/PyCQA/bandit/commit/6b1211b561383488cde26bc37b402a2f30b6e8aa,0
+PyCQA/bandit,6ae3e20aa2a8d9cc8aa4d46dc9115e6c0752243c,Merge pull request #25 from mcpeak/aggregate,https://github.com/PyCQA/bandit/commit/6ae3e20aa2a8d9cc8aa4d46dc9115e6c0752243c,1
+PyCQA/bandit,8a6cc6426aceaacc74b481894b43aa8fc4ed46cd,Adding option to aggregate by vulnerability type and a test for hardcoded /tmp usage,https://github.com/PyCQA/bandit/commit/8a6cc6426aceaacc74b481894b43aa8fc4ed46cd,1
+PyCQA/bandit,ee6d75dc95ecc411f540cb402a14d4fac7d991d0,PEP 8 fixes,https://github.com/PyCQA/bandit/commit/ee6d75dc95ecc411f540cb402a14d4fac7d991d0,0
+PyCQA/bandit,27d5517492324858605f0daafe783c4aa0d9341e,Merge pull request #20 from mcpeak/master,https://github.com/PyCQA/bandit/commit/27d5517492324858605f0daafe783c4aa0d9341e,1
+PyCQA/bandit,91753a4ca0c419fc359094be7fd5d61b3f6deb71,"Adding SQL Injection test, examples, and profile.",https://github.com/PyCQA/bandit/commit/91753a4ca0c419fc359094be7fd5d61b3f6deb71,1
+PyCQA/bandit,bbcc7207634f64caf6d9ea577086cc27986a8602,Minor PEP 8 fixes,https://github.com/PyCQA/bandit/commit/bbcc7207634f64caf6d9ea577086cc27986a8602,0
+PyCQA/bandit,810815092010624f33dceb9ae7b23269db122499,Merge pull request #17 from mcpeak/master,https://github.com/PyCQA/bandit/commit/810815092010624f33dceb9ae7b23269db122499,0
+PyCQA/bandit,83d45c0fa64da347eec6b96f46c5eb1fbfe516d4,Fix bug with permissions matching,https://github.com/PyCQA/bandit/commit/83d45c0fa64da347eec6b96f46c5eb1fbfe516d4,0
+PyCQA/bandit,8c51ee0e8604908c8231949ce540f7bca93a2289,Merge pull request #16 from mcpeak/master,https://github.com/PyCQA/bandit/commit/8c51ee0e8604908c8231949ce540f7bca93a2289,4
+PyCQA/bandit,014064f2ba78fc3899a60151bbaac55b162950c6,Moving bad names definition to config file; fixed bug with qualname,https://github.com/PyCQA/bandit/commit/014064f2ba78fc3899a60151bbaac55b162950c6,4
+PyCQA/bandit,ef5d70bd5d493b2a6ffb72574f6a2d7fd47b75fb,"Create settings system, moved more fixed values to config, improved readability",https://github.com/PyCQA/bandit/commit/ef5d70bd5d493b2a6ffb72574f6a2d7fd47b75fb,0
+PyCQA/bandit,76cd871e9df0e8651bfb7ddf89a0874c1a8ad192,Merge pull request #13 from mcpeak/master,https://github.com/PyCQA/bandit/commit/76cd871e9df0e8651bfb7ddf89a0874c1a8ad192,0
+PyCQA/bandit,900d5731f544da3cf496200868a3edb5724c7750,Fixed a bug with handling _ast.Tuple,https://github.com/PyCQA/bandit/commit/900d5731f544da3cf496200868a3edb5724c7750,0
+PyCQA/bandit,23a3612978ae29697ccc8932d3b7f60790bc1638,Wildcard injection tests crash on non-string args,https://github.com/PyCQA/bandit/commit/23a3612978ae29697ccc8932d3b7f60790bc1638,0
+PyCQA/bandit,544311f780bc9acdf6c12bf098446374e4b08be3,Test for mark_safe() calls,https://github.com/PyCQA/bandit/commit/544311f780bc9acdf6c12bf098446374e4b08be3,0
+PyCQA/bandit,2d54a6a7a865cc81184001d68e27c597fbc833d7,Minor PEP8 fixes,https://github.com/PyCQA/bandit/commit/2d54a6a7a865cc81184001d68e27c597fbc833d7,0
+PyCQA/bandit,32fb513d777c978686096a8a3f33ebf67da55bfe,pep8 fix,https://github.com/PyCQA/bandit/commit/32fb513d777c978686096a8a3f33ebf67da55bfe,0
+PyCQA/bandit,f4d291e25b860df42d5d41a871bfd109029b43c9,pep8 fixes,https://github.com/PyCQA/bandit/commit/f4d291e25b860df42d5d41a871bfd109029b43c9,0
+PyCQA/bandit,b601ecc42e0c629974e9ed55c9391777534c3925,pep8 fixes,https://github.com/PyCQA/bandit/commit/b601ecc42e0c629974e9ed55c9391777534c3925,0
+PyCQA/bandit,d953c7a881dbf614e1386303855427196c6ee4b3,pep8 fixes,https://github.com/PyCQA/bandit/commit/d953c7a881dbf614e1386303855427196c6ee4b3,0
+PyCQA/bandit,122807cbf12ce15b24dedd90fc1cff8ef2e8cc3a,pep8 fixes,https://github.com/PyCQA/bandit/commit/122807cbf12ce15b24dedd90fc1cff8ef2e8cc3a,0
+PyCQA/bandit,2f4e7adde7afcdd0434b90b013620f835e53ab99,pep8 fixes,https://github.com/PyCQA/bandit/commit/2f4e7adde7afcdd0434b90b013620f835e53ab99,0
+PyCQA/bandit,f66a373416118ded465df7a0d03a711f2c3fedb3,Fix 'self' reference in manager,https://github.com/PyCQA/bandit/commit/f66a373416118ded465df7a0d03a711f2c3fedb3,0
+PyCQA/bandit,7c94d3625edf16a15025d546465c3712ffc4fa3a,Fix relative imports and error handling,https://github.com/PyCQA/bandit/commit/7c94d3625edf16a15025d546465c3712ffc4fa3a,0

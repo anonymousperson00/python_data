@@ -1,0 +1,192 @@
+repo,sha,message,url,func_changes
+yaml/pyyaml,41309b0bcb4559edb1d691d47199035ef539d785,Release 6.0.2 (#819),https://github.com/yaml/pyyaml/commit/41309b0bcb4559edb1d691d47199035ef539d785,0
+yaml/pyyaml,f74f3350b530450ecd033ba5aceb334c4af867bd,fix `setup.py test` and issue deprecation warning (#820),https://github.com/yaml/pyyaml/commit/f74f3350b530450ecd033ba5aceb334c4af867bd,0
+yaml/pyyaml,dd9f0e1236775dcce682c91823e009556ce2a271,6.0.2rc1 (#809),https://github.com/yaml/pyyaml/commit/dd9f0e1236775dcce682c91823e009556ce2a271,7
+yaml/pyyaml,f873cfef316290c7cb5351b7e77a8d69d48d4f7d,Add python 3.11 support (#663),https://github.com/yaml/pyyaml/commit/f873cfef316290c7cb5351b7e77a8d69d48d4f7d,0
+yaml/pyyaml,0abad85a17ba75c0fb431feea7a6a06125341a99,security disclosure docs,https://github.com/yaml/pyyaml/commit/0abad85a17ba75c0fb431feea7a6a06125341a99,0
+yaml/pyyaml,c468e526797720ef59e57e6c92a1603479d4c010,Change yaml.load* methods to accept a Loader* instance,https://github.com/yaml/pyyaml/commit/c468e526797720ef59e57e6c92a1603479d4c010,2
+yaml/pyyaml,a6d384c52ea54ded80df27032c7b6d3a98b0c2fa,Various setup fixes,https://github.com/yaml/pyyaml/commit/a6d384c52ea54ded80df27032c7b6d3a98b0c2fa,0
+yaml/pyyaml,c2743653bc89e42679ba097b4f9888db47c61d63,"The yaml.load{,_all} functions require Loader= now",https://github.com/yaml/pyyaml/commit/c2743653bc89e42679ba097b4f9888db47c61d63,5
+yaml/pyyaml,2f87ac4838840a2e3cb48504dcd74041921ab184,Add a basic test file for yaml.load and yaml.dump,https://github.com/yaml/pyyaml/commit/2f87ac4838840a2e3cb48504dcd74041921ab184,3
+yaml/pyyaml,8f27932796623d58fe9e226e141cd27a6f0befec,Fix float resolver for '.' and '._',https://github.com/yaml/pyyaml/commit/8f27932796623d58fe9e226e141cd27a6f0befec,0
+yaml/pyyaml,82db2835588c06b3db60b4f0d14dea9e0e02c697,Fix warning errors of the libyaml binding,https://github.com/yaml/pyyaml/commit/82db2835588c06b3db60b4f0d14dea9e0e02c697,0
+yaml/pyyaml,961ce9dcf53dcef41f6268bbbb7c6a685a46c899,Fix issue with representing Enum types,https://github.com/yaml/pyyaml/commit/961ce9dcf53dcef41f6268bbbb7c6a685a46c899,0
+yaml/pyyaml,34e764fd9959513a1ce8a8ef984f15eaa0ec535a,Fix issue with representing Enum types,https://github.com/yaml/pyyaml/commit/34e764fd9959513a1ce8a8ef984f15eaa0ec535a,0
+yaml/pyyaml,2b37f155d4313ea352f8576d84dda3025b8edf9c,Fix stub compat with older pyyaml versions that may unwittingly load it,https://github.com/yaml/pyyaml/commit/2b37f155d4313ea352f8576d84dda3025b8edf9c,0
+yaml/pyyaml,a60f7a19c0b418fe95fcf2ec0957005ae39e1090,Fix compatibility with Jython,https://github.com/yaml/pyyaml/commit/a60f7a19c0b418fe95fcf2ec0957005ae39e1090,0
+yaml/pyyaml,fc914d52c43f499224f7fb4c2d4c47623adc5b33,Avoid repeatedly appending to yaml_implicit_resolvers,https://github.com/yaml/pyyaml/commit/fc914d52c43f499224f7fb4c2d4c47623adc5b33,0
+yaml/pyyaml,a001f2782501ad2d24986959f0239a354675f9dc,Fix for CVE-2020-14343,https://github.com/yaml/pyyaml/commit/a001f2782501ad2d24986959f0239a354675f9dc,0
+yaml/pyyaml,7adc0db3f613a82669f2b168edd98379b83adb3c,Fix for CVE-2020-14343,https://github.com/yaml/pyyaml/commit/7adc0db3f613a82669f2b168edd98379b83adb3c,0
+yaml/pyyaml,0afa8ac5e13ffef72120161ae766746ae77096d3,Prevents arbitrary code execution during python/object/new constructor (#386),https://github.com/yaml/pyyaml/commit/0afa8ac5e13ffef72120161ae766746ae77096d3,2
+yaml/pyyaml,5080ba513377b6355a0502104846ee804656f1e0,Prevents arbitrary code execution during python/object/new constructor (#386),https://github.com/yaml/pyyaml/commit/5080ba513377b6355a0502104846ee804656f1e0,2
+yaml/pyyaml,96d65f3de147cac6d500f8047b5542ff98a53884,Create timezone-aware datetimes when parsed as such (#163),https://github.com/yaml/pyyaml/commit/96d65f3de147cac6d500f8047b5542ff98a53884,0
+yaml/pyyaml,e1ffe1afaa1de24dd07283accab6e9ecf91f580f,"increase size of index, line, and column fields (#310)",https://github.com/yaml/pyyaml/commit/e1ffe1afaa1de24dd07283accab6e9ecf91f580f,2
+yaml/pyyaml,f1ab37df447dccad6032485ff08c2d3beb6251f1,Fix for Python 3.10 (#329),https://github.com/yaml/pyyaml/commit/f1ab37df447dccad6032485ff08c2d3beb6251f1,0
+yaml/pyyaml,0716ae21a1e7ab6b4ef73428c0c8fff49685d057,Fix reader for Unicode code points over 0xFFFF (#351),https://github.com/yaml/pyyaml/commit/0716ae21a1e7ab6b4ef73428c0c8fff49685d057,0
+yaml/pyyaml,5a0cfab86f6bccd5e5bec5c239ccfb94f8f0fe11,Fix handling of __slots__ (#161),https://github.com/yaml/pyyaml/commit/5a0cfab86f6bccd5e5bec5c239ccfb94f8f0fe11,0
+yaml/pyyaml,eb459f842f690f809b649726f0a317909a92a29c,Fix up small typo,https://github.com/yaml/pyyaml/commit/eb459f842f690f809b649726f0a317909a92a29c,0
+yaml/pyyaml,de11e43d5247991ee2892df4c9dcba434afb6cb6,fix typos and stylistic nit,https://github.com/yaml/pyyaml/commit/de11e43d5247991ee2892df4c9dcba434afb6cb6,0
+yaml/pyyaml,a7a97871fce027d8c3da0d96117f5b71536b8244,"fixup! setup.py: python_requires='!=3.4.*',",https://github.com/yaml/pyyaml/commit/a7a97871fce027d8c3da0d96117f5b71536b8244,0
+yaml/pyyaml,15e0e80d6dee9e8e513caa720c9fc2db0e935f44,Fix appveyor.yml to use libyaml tag not branch,https://github.com/yaml/pyyaml/commit/15e0e80d6dee9e8e513caa720c9fc2db0e935f44,0
+yaml/pyyaml,31f2279252e9d1a3093b738570c26f44a829f0a0,Fix logic for quoting special characters (#276),https://github.com/yaml/pyyaml/commit/31f2279252e9d1a3093b738570c26f44a829f0a0,0
+yaml/pyyaml,91c9435bb667dc318c845f5b3e8af36bb84c66eb,Squash/merge pull request #105 from nnadeau/patch-1,https://github.com/yaml/pyyaml/commit/91c9435bb667dc318c845f5b3e8af36bb84c66eb,0
+yaml/pyyaml,b515dbf4f13d45e57bd276b3a915b22a8a9e0fbc,Squash/merge pull request #105 from nnadeau/patch-1,https://github.com/yaml/pyyaml/commit/b515dbf4f13d45e57bd276b3a915b22a8a9e0fbc,0
+yaml/pyyaml,944bf4fc8748671300e0db9b3acd9f06c508da18,Squash/merge pull request #105 from nnadeau/patch-1,https://github.com/yaml/pyyaml/commit/944bf4fc8748671300e0db9b3acd9f06c508da18,0
+yaml/pyyaml,d13a3d0f9684351b357b7bf55df2cef050ddfbc6,Fix for bug https://github.com/yaml/pyyaml/issues/118,https://github.com/yaml/pyyaml/commit/d13a3d0f9684351b357b7bf55df2cef050ddfbc6,0
+yaml/pyyaml,53706142ad7ba4d0ba4c544fd6f1cbc6f658b17b,Squash/merge pull request #105 from nnadeau/patch-1,https://github.com/yaml/pyyaml/commit/53706142ad7ba4d0ba4c544fd6f1cbc6f658b17b,0
+yaml/pyyaml,9959328b41ee577c6f14e3a0184b07dd0ecadb8c,Import Hashable from collections.abc,https://github.com/yaml/pyyaml/commit/9959328b41ee577c6f14e3a0184b07dd0ecadb8c,0
+yaml/pyyaml,13cb6531f06bfb7ce268b9ea2ad108ffe5724917,Squash/merge pull request #105 from nnadeau/patch-1,https://github.com/yaml/pyyaml/commit/13cb6531f06bfb7ce268b9ea2ad108ffe5724917,0
+yaml/pyyaml,9a247436a898acda90524fe36dd6743933c70078,Squash/merge pull request #105 from nnadeau/patch-1,https://github.com/yaml/pyyaml/commit/9a247436a898acda90524fe36dd6743933c70078,0
+yaml/pyyaml,5a14f50a866a42a9eac64e13bdb048a257d4facd,Fix for bug https://github.com/yaml/pyyaml/issues/118,https://github.com/yaml/pyyaml/commit/5a14f50a866a42a9eac64e13bdb048a257d4facd,0
+yaml/pyyaml,9501dc29b07e4dc9ae19785b429ddf2f7bd6f6a7,appveyor.yml: hopefully fix syntax,https://github.com/yaml/pyyaml/commit/9501dc29b07e4dc9ae19785b429ddf2f7bd6f6a7,0
+yaml/pyyaml,d76d03711913008b0c1239e910ae91ed457d0024,Force cython when building sdist,https://github.com/yaml/pyyaml/commit/d76d03711913008b0c1239e910ae91ed457d0024,0
+yaml/pyyaml,6a3ff13a42b795cd89d629840f6b8532db8a5162,Force cython when building sdist,https://github.com/yaml/pyyaml/commit/6a3ff13a42b795cd89d629840f6b8532db8a5162,0
+yaml/pyyaml,582c1cb44fe1609df0e810e3fd8ccfceb6a8303d,Force cython when building sdist,https://github.com/yaml/pyyaml/commit/582c1cb44fe1609df0e810e3fd8ccfceb6a8303d,0
+yaml/pyyaml,298e07907ae526594069f6fdf31f2f1278cc1ae3,Fallback to Pure Python if Compilation fails,https://github.com/yaml/pyyaml/commit/298e07907ae526594069f6fdf31f2f1278cc1ae3,0
+yaml/pyyaml,d856c206fd4bfd71254e0d69e9d5e31bef5d2c0f,Fix typos,https://github.com/yaml/pyyaml/commit/d856c206fd4bfd71254e0d69e9d5e31bef5d2c0f,0
+yaml/pyyaml,eb9932ac1c0f9154c2f0884662cc8c7794239dbc,Fixed handling --verbose flag in the test appliance.,https://github.com/yaml/pyyaml/commit/eb9932ac1c0f9154c2f0884662cc8c7794239dbc,0
+yaml/pyyaml,16bd7d06c2cd4f2b688e2adc083b175595c03000,Improved check for CPython (fixes issue #58).,https://github.com/yaml/pyyaml/commit/16bd7d06c2cd4f2b688e2adc083b175595c03000,0
+yaml/pyyaml,153a194e860b499e38b4d777698110a5f7c8d0df,Adding an implicit resolver to a derived loader should not affect the base loader (fixes issue #57).,https://github.com/yaml/pyyaml/commit/153a194e860b499e38b4d777698110a5f7c8d0df,0
+yaml/pyyaml,c95586cfb6147bcb3d066a0291a76f31affa9374,Uniform representation for OrderedDict (fixes issue #61).,https://github.com/yaml/pyyaml/commit/c95586cfb6147bcb3d066a0291a76f31affa9374,0
+yaml/pyyaml,f10d92f87bedc314b6e2904ac934f744e985d9e2,Fixed comparison to () (closes #64).,https://github.com/yaml/pyyaml/commit/f10d92f87bedc314b6e2904ac934f744e985d9e2,0
+yaml/pyyaml,d737907354c1cd53c48385541ad0303238a671c4,Fixed comparison to None warning (closes issue #64).,https://github.com/yaml/pyyaml/commit/d737907354c1cd53c48385541ad0303238a671c4,0
+yaml/pyyaml,1626bb30f5ab05976ac055266d473e35a377cf99,Fixed tests on the Windows platform.,https://github.com/yaml/pyyaml/commit/1626bb30f5ab05976ac055266d473e35a377cf99,0
+yaml/pyyaml,f9103d5b8e3a1ecfc4ff16ba3edb52e6a144c852,Fixed tests on the Windows platform.,https://github.com/yaml/pyyaml/commit/f9103d5b8e3a1ecfc4ff16ba3edb52e6a144c852,0
+yaml/pyyaml,3889e354cf20b7a6accdd7fc9265b1d4a214a351,Fixed another encoding issue.,https://github.com/yaml/pyyaml/commit/3889e354cf20b7a6accdd7fc9265b1d4a214a351,2
+yaml/pyyaml,6b6efd86eabde7813aef517dd88e0abe41a5f52a,Fixed another encoding issue.,https://github.com/yaml/pyyaml/commit/6b6efd86eabde7813aef517dd88e0abe41a5f52a,2
+yaml/pyyaml,50bc6388bfb1d2f480820a8649d33a4bb10a636d,Fixed Python 3.1 incompatibility issues.,https://github.com/yaml/pyyaml/commit/50bc6388bfb1d2f480820a8649d33a4bb10a636d,0
+yaml/pyyaml,fa26a01e8f7cc55dd55f6838d58dd5e3b442eb6e,Fixed Python 3.1 incompatibility issues.,https://github.com/yaml/pyyaml/commit/fa26a01e8f7cc55dd55f6838d58dd5e3b442eb6e,0
+yaml/pyyaml,b8b826f1caecedd7afcea9e48abbc9b59c32c713,Fixed sorting of dict.keys() generator.,https://github.com/yaml/pyyaml/commit/b8b826f1caecedd7afcea9e48abbc9b59c32c713,0
+yaml/pyyaml,ca128150044349500ae9ee61867025785754f195,Fixed sorting of dict.keys() generator.,https://github.com/yaml/pyyaml/commit/ca128150044349500ae9ee61867025785754f195,0
+yaml/pyyaml,ed9cd1bbadd92eb3869715d5f530ce70ee817afd,Merged some bug fixes from lib to lib3.,https://github.com/yaml/pyyaml/commit/ed9cd1bbadd92eb3869715d5f530ce70ee817afd,0
+yaml/pyyaml,34926be5f341f8759d884ff284cf013304d22ba7,Merged some bug fixes from lib to lib3.,https://github.com/yaml/pyyaml/commit/34926be5f341f8759d884ff284cf013304d22ba7,0
+yaml/pyyaml,335c34455d8cdeffa73281b22a409fb73bfcbdf1,Fixed a problem with a scanner error not detected when no line break at the end of the stream.,https://github.com/yaml/pyyaml/commit/335c34455d8cdeffa73281b22a409fb73bfcbdf1,0
+yaml/pyyaml,f92bcb217a2db8752a5e12010c553ad1b8e98e9e,Fixed a problem with a scanner error not detected when no line break at the end of the stream.,https://github.com/yaml/pyyaml/commit/f92bcb217a2db8752a5e12010c553ad1b8e98e9e,0
+yaml/pyyaml,51fd5cbfdb192798965ccd3a9755c0f2c301665e,Fixed a typo in docstring.,https://github.com/yaml/pyyaml/commit/51fd5cbfdb192798965ccd3a9755c0f2c301665e,0
+yaml/pyyaml,5188e6b498b76ddad5d682fe2bce5e1a381d3dfd,Fixed a typo in docstring.,https://github.com/yaml/pyyaml/commit/5188e6b498b76ddad5d682fe2bce5e1a381d3dfd,0
+yaml/pyyaml,fa14e18b388d5b35d8c7b592850fca6c592e8d27,Fixed emitting of invalid BOM for UTF-16.,https://github.com/yaml/pyyaml/commit/fa14e18b388d5b35d8c7b592850fca6c592e8d27,0
+yaml/pyyaml,e4a814fd2d35fff1b7efda2461cd8e72d813ae87,Fixed emitting of invalid BOM for UTF-16.,https://github.com/yaml/pyyaml/commit/e4a814fd2d35fff1b7efda2461cd8e72d813ae87,0
+yaml/pyyaml,706e36ab64f529ae45a948a5e999ffb226fcba91,Fixed a problem when CDumper incorrectly serializes a node anchor.,https://github.com/yaml/pyyaml/commit/706e36ab64f529ae45a948a5e999ffb226fcba91,0
+yaml/pyyaml,6a366322e8bcd837e8709a3d16b857241639b966,Fixed a problem when CDumper incorrectly serializes a node anchor.,https://github.com/yaml/pyyaml/commit/6a366322e8bcd837e8709a3d16b857241639b966,0
+yaml/pyyaml,7e0469140a7c87b02e7be0cf26e3ba5c0bbea1bf,Fixed the Pyrex implementation of Mark class.,https://github.com/yaml/pyyaml/commit/7e0469140a7c87b02e7be0cf26e3ba5c0bbea1bf,0
+yaml/pyyaml,892d0a20a307af45881d0f99835c0d09f8bbeae3,Fixed the Pyrex implementation of Mark class.,https://github.com/yaml/pyyaml/commit/892d0a20a307af45881d0f99835c0d09f8bbeae3,0
+yaml/pyyaml,6483cb73c787eb9c06fd8dceee2ab85cb6010dec,Fixed a bug where folded scalar emitter did not respect the preffered line width (Thanks ingy for the report and the patch).,https://github.com/yaml/pyyaml/commit/6483cb73c787eb9c06fd8dceee2ab85cb6010dec,0
+yaml/pyyaml,b41e87d0c0fecfbd6e5358e0fa4338ecf84cbca4,Fixed a bug where folded scalar emitter did not respect the preffered line width (Thanks ingy for the report and the patch).,https://github.com/yaml/pyyaml/commit/b41e87d0c0fecfbd6e5358e0fa4338ecf84cbca4,0
+yaml/pyyaml,6f51a53a6b26ef832984c77cb5ddc4ac0cc0d2bb,Fixed a typo in the attribute name (Thanks ingy).,https://github.com/yaml/pyyaml/commit/6f51a53a6b26ef832984c77cb5ddc4ac0cc0d2bb,0
+yaml/pyyaml,ccd3c0ff2dd7148ef5f3523a973bf97c7bfab45a,Fixed a typo in the attribute name (Thanks ingy).,https://github.com/yaml/pyyaml/commit/ccd3c0ff2dd7148ef5f3523a973bf97c7bfab45a,0
+yaml/pyyaml,e2bf4f3a03aa581aa70841f1cdc4d484c9e2ee46,Minor compatibility fixes.,https://github.com/yaml/pyyaml/commit/e2bf4f3a03aa581aa70841f1cdc4d484c9e2ee46,0
+yaml/pyyaml,1c079d6658a8564dd54bab796297a954c26867c6,Minor compatibility fixes.,https://github.com/yaml/pyyaml/commit/1c079d6658a8564dd54bab796297a954c26867c6,0
+yaml/pyyaml,bf272b0339eae58dc150b27de73f1a301fb32871,Fixed str/bytes issues with Python 3 in _yaml.pyx.,https://github.com/yaml/pyyaml/commit/bf272b0339eae58dc150b27de73f1a301fb32871,4
+yaml/pyyaml,eef81e9529e73f42e882203ee102680785aefcb1,Fixed str/bytes issues with Python 3 in _yaml.pyx.,https://github.com/yaml/pyyaml/commit/eef81e9529e73f42e882203ee102680785aefcb1,4
+yaml/pyyaml,ca836ef04d75da6da95f75be834b39f1df80ba26,Fixed the remaining Python 3 compatibility issues.,https://github.com/yaml/pyyaml/commit/ca836ef04d75da6da95f75be834b39f1df80ba26,0
+yaml/pyyaml,7a3510a4354dbd2da7afb6d8de9afac5f3138329,Fixed the remaining Python 3 compatibility issues.,https://github.com/yaml/pyyaml/commit/7a3510a4354dbd2da7afb6d8de9afac5f3138329,0
+yaml/pyyaml,1310c512497febfd2b722db671f4ff1c724e93c8,Added CHANGES; updated the announcement; wording fixes in setup.py.,https://github.com/yaml/pyyaml/commit/1310c512497febfd2b722db671f4ff1c724e93c8,0
+yaml/pyyaml,cde6ec458651167d4d8995ad033f65960bb75813,Added CHANGES; updated the announcement; wording fixes in setup.py.,https://github.com/yaml/pyyaml/commit/cde6ec458651167d4d8995ad033f65960bb75813,0
+yaml/pyyaml,8e88d11b41b8cbec4c51180589fd77b6a3d7c1f9,Minor 2.3 and win32 compatibility fixes; clarify the 'feature not found' message in setup.py.,https://github.com/yaml/pyyaml/commit/8e88d11b41b8cbec4c51180589fd77b6a3d7c1f9,0
+yaml/pyyaml,bc887e46b656d0714c274154c25168cfa39b919c,Minor 2.3 and win32 compatibility fixes; clarify the 'feature not found' message in setup.py.,https://github.com/yaml/pyyaml/commit/bc887e46b656d0714c274154c25168cfa39b919c,0
+yaml/pyyaml,1e842301f4a017094f7507711ef1b3c0ce461338,Fixed an issue with ReaderError generated by the LibYAML wrapper.,https://github.com/yaml/pyyaml/commit/1e842301f4a017094f7507711ef1b3c0ce461338,0
+yaml/pyyaml,44a474f02a5719106ce614dfa39471e2c851bd78,Fixed an issue with ReaderError generated by the LibYAML wrapper.,https://github.com/yaml/pyyaml/commit/44a474f02a5719106ce614dfa39471e2c851bd78,0
+yaml/pyyaml,93f64d3c796a4b6275b1e23481368c8c68f8ad13,Fixed test errors for LibYAML bindings; added a test on emitting nodes in all possible styles.,https://github.com/yaml/pyyaml/commit/93f64d3c796a4b6275b1e23481368c8c68f8ad13,0
+yaml/pyyaml,fd7f35f23ca5996c8f92c3b935d3533dccfc0ac2,Fixed test errors for LibYAML bindings; added a test on emitting nodes in all possible styles.,https://github.com/yaml/pyyaml/commit/fd7f35f23ca5996c8f92c3b935d3533dccfc0ac2,0
+yaml/pyyaml,7baeadf46f61f8131583569e7b007edae9745f7a,Minor fixes in the test subsystem to prevent failures in LibYAML bindings tests.,https://github.com/yaml/pyyaml/commit/7baeadf46f61f8131583569e7b007edae9745f7a,0
+yaml/pyyaml,f524b38d04b1e1f4cb4058496114f5c1793520dc,Minor fixes in the test subsystem to prevent failures in LibYAML bindings tests.,https://github.com/yaml/pyyaml/commit/f524b38d04b1e1f4cb4058496114f5c1793520dc,0
+yaml/pyyaml,4cc504a108b17604e81880068ec054078af53a5e,Fixed a bug in CDumper when ascend_resolver() is never called.,https://github.com/yaml/pyyaml/commit/4cc504a108b17604e81880068ec054078af53a5e,0
+yaml/pyyaml,362045d470719ac8f2ec1024e1e128ec45953feb,Fixed a bug in CDumper when ascend_resolver() is never called.,https://github.com/yaml/pyyaml/commit/362045d470719ac8f2ec1024e1e128ec45953feb,0
+yaml/pyyaml,3acc330efae95547ae196cd000903c0d82e95c6b,Fixed typos in attribute names (Thanks to ingy).,https://github.com/yaml/pyyaml/commit/3acc330efae95547ae196cd000903c0d82e95c6b,0
+yaml/pyyaml,9b65e038a4e02a4f54d04ef32aa320e2075d7bc8,Fixed typos in attribute names (Thanks to ingy).,https://github.com/yaml/pyyaml/commit/9b65e038a4e02a4f54d04ef32aa320e2075d7bc8,0
+yaml/pyyaml,6282bda857b100c6ff183ac261a5574fc5780272,Fixed a problem with emitting block scalars (thanks to Andrey Somov): no longer emit indentation spaces when they are not needed; emit the correct number of leading breaks for folded scalars; emit the '+' chomping indicator for a single break scalar.,https://github.com/yaml/pyyaml/commit/6282bda857b100c6ff183ac261a5574fc5780272,0
+yaml/pyyaml,ede2fb3a13b94e3ba8518b03bd3e69eab7d248af,Fixed a problem with emitting block scalars (thanks to Andrey Somov): no longer emit indentation spaces when they are not needed; emit the correct number of leading breaks for folded scalars; emit the '+' chomping indicator for a single break scalar.,https://github.com/yaml/pyyaml/commit/ede2fb3a13b94e3ba8518b03bd3e69eab7d248af,0
+yaml/pyyaml,d41df6ae3bc64bdc4f85bde3341b49e980ade110,Removed a stale comment; fixes #102.,https://github.com/yaml/pyyaml/commit/d41df6ae3bc64bdc4f85bde3341b49e980ade110,0
+yaml/pyyaml,323a7ac0109709f770ba0de3dbdc553854c77e00,Removed a stale comment; fixes #102.,https://github.com/yaml/pyyaml/commit/323a7ac0109709f770ba0de3dbdc553854c77e00,0
+yaml/pyyaml,9768babfd8b22cc4bf131a94b9fc3b0af6c52b66,Fixed the distutils script to run when installed using easy_install and Pyrex is available.,https://github.com/yaml/pyyaml/commit/9768babfd8b22cc4bf131a94b9fc3b0af6c52b66,0
+yaml/pyyaml,beaebb8c4c9769bd6075a758c7546eba897709b1,Fixed the distutils script to run when installed using easy_install and Pyrex is available.,https://github.com/yaml/pyyaml/commit/beaebb8c4c9769bd6075a758c7546eba897709b1,0
+yaml/pyyaml,f13e49291943fba5808e35fbff94db583e347737,Python 2.3 and win32 compatibility fixes in setup.py.,https://github.com/yaml/pyyaml/commit/f13e49291943fba5808e35fbff94db583e347737,5
+yaml/pyyaml,5db6d28573b82d8593f1898bd24effa6e3dc8f1b,Python 2.3 and win32 compatibility fixes in setup.py.,https://github.com/yaml/pyyaml/commit/5db6d28573b82d8593f1898bd24effa6e3dc8f1b,5
+yaml/pyyaml,c0d61333acfabbecdde833127466ed8c49d59ddf,Check if libyaml is installed before attempting to compile the libyaml bindings.,https://github.com/yaml/pyyaml/commit/c0d61333acfabbecdde833127466ed8c49d59ddf,0
+yaml/pyyaml,74b866c81a60ef1205d26779cd0dbc2ca11166e0,Check if libyaml is installed before attempting to compile the libyaml bindings.,https://github.com/yaml/pyyaml/commit/74b866c81a60ef1205d26779cd0dbc2ca11166e0,0
+yaml/pyyaml,72189ab94b991707628553611bb1ec18d5594a09,Fixed include_dirs and library_dirs for the Windows build.,https://github.com/yaml/pyyaml/commit/72189ab94b991707628553611bb1ec18d5594a09,0
+yaml/pyyaml,f5f1e01d721ce32c92ed71c822fc52b40c6a7a21,Fixed include_dirs and library_dirs for the Windows build.,https://github.com/yaml/pyyaml/commit/f5f1e01d721ce32c92ed71c822fc52b40c6a7a21,0
+yaml/pyyaml,f20210c327694395ff41a69fd673f6e1d26cdc95,Added attributes ``yaml.__version__`` and ``yaml.__libyaml__`` (fixes #85).,https://github.com/yaml/pyyaml/commit/f20210c327694395ff41a69fd673f6e1d26cdc95,0
+yaml/pyyaml,9cdca353e8037ec2db702f44bf739e513fdcb69b,Added attributes ``yaml.__version__`` and ``yaml.__libyaml__`` (fixes #85).,https://github.com/yaml/pyyaml/commit/9cdca353e8037ec2db702f44bf739e513fdcb69b,0
+yaml/pyyaml,487ac91791bb59e042c201171b3497e2a7173937,Fixed Python 2.3 compatibility (thanks to Julian Scheid for suggestion).,https://github.com/yaml/pyyaml/commit/487ac91791bb59e042c201171b3497e2a7173937,0
+yaml/pyyaml,3ab607714c84f05937a05666b0461d27285c5439,Fixed Python 2.3 compatibility (thanks to Julian Scheid for suggestion).,https://github.com/yaml/pyyaml/commit/3ab607714c84f05937a05666b0461d27285c5439,0
+yaml/pyyaml,073f08e9d9bd8e49ab8685f6ba954e1e10dc8fe7,A single dot is not a float value (fixes #62).,https://github.com/yaml/pyyaml/commit/073f08e9d9bd8e49ab8685f6ba954e1e10dc8fe7,0
+yaml/pyyaml,e69f7fcc3127886dd5f2b5c1af4ea062ead6b229,A single dot is not a float value (fixes #62).,https://github.com/yaml/pyyaml/commit/e69f7fcc3127886dd5f2b5c1af4ea062ead6b229,0
+yaml/pyyaml,046f114050ff8861720da2d80290dc2d8517d655,Make compose() and load() ensure that the input stream contains a single document.  Fixes #54.,https://github.com/yaml/pyyaml/commit/046f114050ff8861720da2d80290dc2d8517d655,4
+yaml/pyyaml,2469da96d2e8220f30b83ee7ba95793e54f832ed,Make compose() and load() ensure that the input stream contains a single document.  Fixes #54.,https://github.com/yaml/pyyaml/commit/2469da96d2e8220f30b83ee7ba95793e54f832ed,4
+yaml/pyyaml,7b600d35e4d369c9cfac8759d86ead50fe8025d5,Fixed _yaml.pyx to work with the latest Pyrex.,https://github.com/yaml/pyyaml/commit/7b600d35e4d369c9cfac8759d86ead50fe8025d5,0
+yaml/pyyaml,3c78d37338706e513ec92f6f1be51871d5975d34,Fixed _yaml.pyx to work with the latest Pyrex.,https://github.com/yaml/pyyaml/commit/3c78d37338706e513ec92f6f1be51871d5975d34,0
+yaml/pyyaml,dafd16438798b5e133d022a4b08601ec4ffc65d2,Allow for immutable subclasses of YAMLObject. Fixes #53.,https://github.com/yaml/pyyaml/commit/dafd16438798b5e133d022a4b08601ec4ffc65d2,0
+yaml/pyyaml,0625ba54cc2012026f75a57581ce398b0a6d8ac6,Allow for immutable subclasses of YAMLObject. Fixes #53.,https://github.com/yaml/pyyaml/commit/0625ba54cc2012026f75a57581ce398b0a6d8ac6,0
+yaml/pyyaml,69379ea21bc858b0ef7b4a6673b089ce0088017d,Make the encoding of the unicode->str conversion explicit; fix [52].,https://github.com/yaml/pyyaml/commit/69379ea21bc858b0ef7b4a6673b089ce0088017d,0
+yaml/pyyaml,21a9abae66c0ac9d22aebe19b650dc4f0927b982,Make the encoding of the unicode->str conversion explicit; fix [52].,https://github.com/yaml/pyyaml/commit/21a9abae66c0ac9d22aebe19b650dc4f0927b982,0
+yaml/pyyaml,9eb838b97b35468cafa244fb118b43b90e04de46,Fixed a problem when the DOCUMENT-END event is not emitted until the beginning of the next document is available.  Fixed #51.  Thanks edward(at)sweetbytes.net for the bug report.,https://github.com/yaml/pyyaml/commit/9eb838b97b35468cafa244fb118b43b90e04de46,0
+yaml/pyyaml,07d0f46d21ecc15341cb66cdcd390886d87652b6,Fixed a problem when the DOCUMENT-END event is not emitted until the beginning of the next document is available.  Fixed #51.  Thanks edward(at)sweetbytes.net for the bug report.,https://github.com/yaml/pyyaml/commit/07d0f46d21ecc15341cb66cdcd390886d87652b6,0
+yaml/pyyaml,96fcba3d7f31a95842c69dd36f1dab0c0b92af7d,Improve output of float values. Fix #49.,https://github.com/yaml/pyyaml/commit/96fcba3d7f31a95842c69dd36f1dab0c0b92af7d,0
+yaml/pyyaml,d93cb3c29dc696198f294b43e4250bebea9089e1,Improve output of float values. Fix #49.,https://github.com/yaml/pyyaml/commit/d93cb3c29dc696198f294b43e4250bebea9089e1,0
+yaml/pyyaml,04ff8e6fa1d8e0c27c344743147c69500b4dff66,Fix the bug when the `path` in `add_path_resolver` contains boolean values.  Fix #43 (thanks to jstroud(at)mbi.ucla.edu for reporting and pointing to the cause).,https://github.com/yaml/pyyaml/commit/04ff8e6fa1d8e0c27c344743147c69500b4dff66,0
+yaml/pyyaml,8ef13f5e476b1a18bc76a3b7542a31b8248792f7,Fix the bug when the `path` in `add_path_resolver` contains boolean values.  Fix #43 (thanks to jstroud(at)mbi.ucla.edu for reporting and pointing to the cause).,https://github.com/yaml/pyyaml/commit/8ef13f5e476b1a18bc76a3b7542a31b8248792f7,0
+yaml/pyyaml,21483f22d705e2af7d00d9027774f5c7c7cef5c5,Use the types module instead of constructing type objects by hand. Fix #41. Thanks to v.haisman@sh.cvut.cz for the patch.,https://github.com/yaml/pyyaml/commit/21483f22d705e2af7d00d9027774f5c7c7cef5c5,0
+yaml/pyyaml,6c870c07bfb55eb520c1bb04f8fd8b4b2c9ad289,Use the types module instead of constructing type objects by hand. Fix #41. Thanks to v.haisman@sh.cvut.cz for the patch.,https://github.com/yaml/pyyaml/commit/6c870c07bfb55eb520c1bb04f8fd8b4b2c9ad289,0
+yaml/pyyaml,ed79023a71fda81656d2495a1107a58741c2f476,Fix loss of microsecond precision in datetime.datetime constructor (fix #30).,https://github.com/yaml/pyyaml/commit/ed79023a71fda81656d2495a1107a58741c2f476,0
+yaml/pyyaml,0394408669d070b5a27d513213de9ba9023f5ba3,Fix loss of microsecond precision in datetime.datetime constructor (fix #30).,https://github.com/yaml/pyyaml/commit/0394408669d070b5a27d513213de9ba9023f5ba3,0
+yaml/pyyaml,cc9c7383421ecae60e4bd9dd138b9b72d4f81fac,Fix loading an empty YAML stream.,https://github.com/yaml/pyyaml/commit/cc9c7383421ecae60e4bd9dd138b9b72d4f81fac,0
+yaml/pyyaml,c02a049948928d42c4ec64e7ea99024bfc48fbdb,Fix loading an empty YAML stream.,https://github.com/yaml/pyyaml/commit/c02a049948928d42c4ec64e7ea99024bfc48fbdb,0
+yaml/pyyaml,320c6976b9cc8efe43137c7c8579eb60e4ebaa58,Fix makefile and add setup.cfg.,https://github.com/yaml/pyyaml/commit/320c6976b9cc8efe43137c7c8579eb60e4ebaa58,0
+yaml/pyyaml,5f08ce3aaff6b266212ec54a46577688140077be,Fix makefile and add setup.cfg.,https://github.com/yaml/pyyaml/commit/5f08ce3aaff6b266212ec54a46577688140077be,0
+yaml/pyyaml,b4643e77c357dfb0e3c23f21b6b783b4daceee66,Fix a test to work under Python 2.3.,https://github.com/yaml/pyyaml/commit/b4643e77c357dfb0e3c23f21b6b783b4daceee66,0
+yaml/pyyaml,202ac9fad89139057d720c3cc628671a6f3dc8a9,Fix a test to work under Python 2.3.,https://github.com/yaml/pyyaml/commit/202ac9fad89139057d720c3cc628671a6f3dc8a9,0
+yaml/pyyaml,8f9b8bed40a53c285ebfd2613ef5af00d2fc6b97,The 'N' plain scalar was still recognized as ``!!bool``. Fix it (close #26).,https://github.com/yaml/pyyaml/commit/8f9b8bed40a53c285ebfd2613ef5af00d2fc6b97,0
+yaml/pyyaml,5c69628415dd683c5f2e69ffcc6415057bfb7431,The 'N' plain scalar was still recognized as ``!!bool``. Fix it (close #26).,https://github.com/yaml/pyyaml/commit/5c69628415dd683c5f2e69ffcc6415057bfb7431,0
+yaml/pyyaml,29413ea88ea02e1f48d4042a8819e8050ab625a3,Fix timestamp constructing and representing (close #25).,https://github.com/yaml/pyyaml/commit/29413ea88ea02e1f48d4042a8819e8050ab625a3,0
+yaml/pyyaml,2a8bf56689253bffdca0683e40fa98f25e078e7d,Fix timestamp constructing and representing (close #25).,https://github.com/yaml/pyyaml/commit/2a8bf56689253bffdca0683e40fa98f25e078e7d,0
+yaml/pyyaml,8b083c6a96238ea1fd5eea1deb309ab72c041cef,Subclass all base classes from `object`.,https://github.com/yaml/pyyaml/commit/8b083c6a96238ea1fd5eea1deb309ab72c041cef,1
+yaml/pyyaml,72c7b3143bd9792809a6d880930d108cba0b7596,Subclass all base classes from `object`.,https://github.com/yaml/pyyaml/commit/72c7b3143bd9792809a6d880930d108cba0b7596,1
+yaml/pyyaml,2e6c774c921c4f37569d6996e4a7a85f2783ae08,Fix a bug when a block scalar is incorrectly emitted in the simple key context.,https://github.com/yaml/pyyaml/commit/2e6c774c921c4f37569d6996e4a7a85f2783ae08,0
+yaml/pyyaml,2d7464e858a3c98857de5c5d9e6941afe38fd61e,Fix a bug when a block scalar is incorrectly emitted in the simple key context.,https://github.com/yaml/pyyaml/commit/2d7464e858a3c98857de5c5d9e6941afe38fd61e,0
+yaml/pyyaml,056fe5c72e6c332ffbd94475ec5df8156b6a9438,Fix a bug in Representer.represent_object: copy_reg.dispatch_table was not correctly handled.,https://github.com/yaml/pyyaml/commit/056fe5c72e6c332ffbd94475ec5df8156b6a9438,0
+yaml/pyyaml,3532308b66abd1485c6eaa9eb8d696571ee71251,Fix a bug in Representer.represent_object: copy_reg.dispatch_table was not correctly handled.,https://github.com/yaml/pyyaml/commit/3532308b66abd1485c6eaa9eb8d696571ee71251,0
+yaml/pyyaml,95c8976b37428c048ea78c18be63c03897557c21,Fix some minor issues with the new Parser.,https://github.com/yaml/pyyaml/commit/95c8976b37428c048ea78c18be63c03897557c21,0
+yaml/pyyaml,b669321933b1e444cefc63587818ee3f3e4f5583,Fix some minor issues with the new Parser.,https://github.com/yaml/pyyaml/commit/b669321933b1e444cefc63587818ee3f3e4f5583,0
+yaml/pyyaml,63fa1bd6fe5c817be93c9b4ac8bf2bcbe97ea79a,"To make porting easier, rewrite Parser not using generators.",https://github.com/yaml/pyyaml/commit/63fa1bd6fe5c817be93c9b4ac8bf2bcbe97ea79a,0
+yaml/pyyaml,70c616ada34f082e17e2432773ef11485c636ad6,"To make porting easier, rewrite Parser not using generators.",https://github.com/yaml/pyyaml/commit/70c616ada34f082e17e2432773ef11485c636ad6,0
+yaml/pyyaml,27de2ba1fcd503b0949cae649ac4f9fc547a1c35,Fix invalid output of single-quoted scalars in cases when a single,https://github.com/yaml/pyyaml/commit/27de2ba1fcd503b0949cae649ac4f9fc547a1c35,0
+yaml/pyyaml,59627df4c4b15ea063faca2165b558ff6dea19a7,Fix invalid output of single-quoted scalars in cases when a single,https://github.com/yaml/pyyaml/commit/59627df4c4b15ea063faca2165b558ff6dea19a7,0
+yaml/pyyaml,72992fe01c88a5b6bccb03a75a9498b4fe747ac2,Fix a typo in a plain scalar scanner.,https://github.com/yaml/pyyaml/commit/72992fe01c88a5b6bccb03a75a9498b4fe747ac2,0
+yaml/pyyaml,89503df34bb51af927edc6bf0e8dec78e30f8e67,Fix a typo in a plain scalar scanner.,https://github.com/yaml/pyyaml/commit/89503df34bb51af927edc6bf0e8dec78e30f8e67,0
+yaml/pyyaml,bcfc0b6ddaa1bc9760ce52ded3d38ba8bfd1840e,Fix several problems caused by ill-formed documents.,https://github.com/yaml/pyyaml/commit/bcfc0b6ddaa1bc9760ce52ded3d38ba8bfd1840e,0
+yaml/pyyaml,48bc382309b1368a22e84b52ee1da0edb86829d4,Fix several problems caused by ill-formed documents.,https://github.com/yaml/pyyaml/commit/48bc382309b1368a22e84b52ee1da0edb86829d4,0
+yaml/pyyaml,149a437edac80810e4637799a0043f3f826fcd68,Fixed #15 (pyyaml discards '-' sign on negative floats).,https://github.com/yaml/pyyaml/commit/149a437edac80810e4637799a0043f3f826fcd68,0
+yaml/pyyaml,ae19fa0b17ae6bfc1690563b9c5541127985b726,Fixed #15 (pyyaml discards '-' sign on negative floats).,https://github.com/yaml/pyyaml/commit/ae19fa0b17ae6bfc1690563b9c5541127985b726,0
+yaml/pyyaml,810977b41684f6734ca13a7a8dd178433297e895,Dynamically determine the inf and nan values. Should fix #14.,https://github.com/yaml/pyyaml/commit/810977b41684f6734ca13a7a8dd178433297e895,0
+yaml/pyyaml,3332b94e8f2bffa4f11b5907f1027863505a4c0d,Dynamically determine the inf and nan values. Should fix #14.,https://github.com/yaml/pyyaml/commit/3332b94e8f2bffa4f11b5907f1027863505a4c0d,0
+yaml/pyyaml,9bd0b4e5312c2fb05619a8301cfbf091bcae547e,Fix a bug in add_path_resolver: map -> dict.,https://github.com/yaml/pyyaml/commit/9bd0b4e5312c2fb05619a8301cfbf091bcae547e,0
+yaml/pyyaml,35b291193d3bfa86d90a64500e4b7e1071710b64,Fix a bug in add_path_resolver: map -> dict.,https://github.com/yaml/pyyaml/commit/35b291193d3bfa86d90a64500e4b7e1071710b64,0
+yaml/pyyaml,dd2da8afa4ff7efd58b53f18cf0e51a1d7bafab0,Fix a bug in a test.,https://github.com/yaml/pyyaml/commit/dd2da8afa4ff7efd58b53f18cf0e51a1d7bafab0,0
+yaml/pyyaml,516f179d6ac0c1a6a13a51e9c7c6d53d6a91bfbb,Fix a bug in a test.,https://github.com/yaml/pyyaml/commit/516f179d6ac0c1a6a13a51e9c7c6d53d6a91bfbb,0
+yaml/pyyaml,74f8caa6fb610cd287e71b658b4175aea5241d78,Fix #11 (Thanks to edemaine(at)mit.edu).,https://github.com/yaml/pyyaml/commit/74f8caa6fb610cd287e71b658b4175aea5241d78,2
+yaml/pyyaml,be45596aaef2afc49aee81b83ec55036dadae346,Fix #11 (Thanks to edemaine(at)mit.edu).,https://github.com/yaml/pyyaml/commit/be45596aaef2afc49aee81b83ec55036dadae346,2
+yaml/pyyaml,80ba45069506ccb2c8cd9d5a0276c16bd2dbe505,Add a way to override default style chosen by Representer: fix #9,https://github.com/yaml/pyyaml/commit/80ba45069506ccb2c8cd9d5a0276c16bd2dbe505,0
+yaml/pyyaml,57bc6e61b80d9748fb05fb70b038f245c7b69c12,Add a way to override default style chosen by Representer: fix #9,https://github.com/yaml/pyyaml/commit/57bc6e61b80d9748fb05fb70b038f245c7b69c12,0
+yaml/pyyaml,410d822bd5d2938620c8e50d25a55fe0dd927c7b,Prepare setup.py for release. Fix #7.,https://github.com/yaml/pyyaml/commit/410d822bd5d2938620c8e50d25a55fe0dd927c7b,0
+yaml/pyyaml,7e8c2656dbf91b0e753a6bb6433c062d9c19726f,Prepare setup.py for release. Fix #7.,https://github.com/yaml/pyyaml/commit/7e8c2656dbf91b0e753a6bb6433c062d9c19726f,0
+yaml/pyyaml,cce15169da001621d42cd7f0178aa26fc3230c30,Fix !!python/name for Python 2.3. Clear the yaml module namespace.,https://github.com/yaml/pyyaml/commit/cce15169da001621d42cd7f0178aa26fc3230c30,0
+yaml/pyyaml,d94620e821c693296b59a70f7b865b722527d894,Fix !!python/name for Python 2.3. Clear the yaml module namespace.,https://github.com/yaml/pyyaml/commit/d94620e821c693296b59a70f7b865b722527d894,0
+yaml/pyyaml,93bb4703205166d49ced19c621bf120298018ddc,Fix yaml-hl to use the new API.,https://github.com/yaml/pyyaml/commit/93bb4703205166d49ced19c621bf120298018ddc,0
+yaml/pyyaml,c33c8fb5f2da8b1617067b34db86f4b5526063d5,Fix yaml-hl to use the new API.,https://github.com/yaml/pyyaml/commit/c33c8fb5f2da8b1617067b34db86f4b5526063d5,0
+yaml/pyyaml,80ed3f1f57fa58a838aadbb14d7c9db849cd2d1d,Fix bugs in emitter and representer.,https://github.com/yaml/pyyaml/commit/80ed3f1f57fa58a838aadbb14d7c9db849cd2d1d,0
+yaml/pyyaml,f54b84264cd6b3b2b7131211ce869d4ce9eb9238,Fix bugs in emitter and representer.,https://github.com/yaml/pyyaml/commit/f54b84264cd6b3b2b7131211ce869d4ce9eb9238,0
+yaml/pyyaml,ea23091a5bf580a405a834b17802059fa80edfdd,Fix #4 (Thanks to murphy(at)rubychan.de),https://github.com/yaml/pyyaml/commit/ea23091a5bf580a405a834b17802059fa80edfdd,0
+yaml/pyyaml,052db4befcada9513af522abf56738d528d6c3b7,Fix #4 (Thanks to murphy(at)rubychan.de),https://github.com/yaml/pyyaml/commit/052db4befcada9513af522abf56738d528d6c3b7,0
+yaml/pyyaml,fcf5d614a9a2fa9e337ab0eeee82928c2eae913c,Fix allow_unicode (ticket:3).,https://github.com/yaml/pyyaml/commit/fcf5d614a9a2fa9e337ab0eeee82928c2eae913c,0
+yaml/pyyaml,7f37871f62ed67e002e87f0834aeaa1bd09dae20,Fix allow_unicode (ticket:3).,https://github.com/yaml/pyyaml/commit/7f37871f62ed67e002e87f0834aeaa1bd09dae20,0
+yaml/pyyaml,be2d1981fb9bc515cd7aa0f15b7b145a52535a11,Fix the project url.,https://github.com/yaml/pyyaml/commit/be2d1981fb9bc515cd7aa0f15b7b145a52535a11,0
+yaml/pyyaml,4909a0b384d2857af8f40f4950e379b51ae17613,Fix the project url.,https://github.com/yaml/pyyaml/commit/4909a0b384d2857af8f40f4950e379b51ae17613,0
+yaml/pyyaml,3aa558459c3fbba2d492902227c44adb1764bdd9,Fix a test.,https://github.com/yaml/pyyaml/commit/3aa558459c3fbba2d492902227c44adb1764bdd9,0
+yaml/pyyaml,070048ea1f2c8622bdd073edb505c3e04ba9581d,Fix a test.,https://github.com/yaml/pyyaml/commit/070048ea1f2c8622bdd073edb505c3e04ba9581d,0
+yaml/pyyaml,8973bb473bd5b974a7cabb210c7c0f8e1932f67a,* Add the token STREAM-START.,https://github.com/yaml/pyyaml/commit/8973bb473bd5b974a7cabb210c7c0f8e1932f67a,0
+yaml/pyyaml,22a971d0ba3b56c02017eca5b2f1fc43350f821f,,https://github.com/yaml/pyyaml/commit/22a971d0ba3b56c02017eca5b2f1fc43350f821f,0
+yaml/pyyaml,b51240f6213af4e4b98dec1d0743c4871848815d,Fixed a silly bug in ''scan_line_break''.,https://github.com/yaml/pyyaml/commit/b51240f6213af4e4b98dec1d0743c4871848815d,0
+yaml/pyyaml,cf62536f0cd9ae24384d5ecd691ba483f12702cc,Fix a few bugs.,https://github.com/yaml/pyyaml/commit/cf62536f0cd9ae24384d5ecd691ba483f12702cc,0
+yaml/pyyaml,6759453c33f81cb8e6f109a7d85c1f6fee87b638,Fix bugs in Resolver and add more tests.,https://github.com/yaml/pyyaml/commit/6759453c33f81cb8e6f109a7d85c1f6fee87b638,0
+yaml/pyyaml,efed7d7c179c4149670ef8142e1ff2edc7121476,Fix some bugs in canonical examples.,https://github.com/yaml/pyyaml/commit/efed7d7c179c4149670ef8142e1ff2edc7121476,0
