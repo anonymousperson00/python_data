@@ -1,0 +1,307 @@
+rules:
+  # 1. Improper Input Validation – CWE-20
+  - id: python-improper-input-validation
+    pattern-regex: '\binput\s*\('
+    message: "Input read without validation"
+    languages: [python]
+    severity: WARNING
+    fix: sanitized_input(...)
+    metadata:
+      cwe: "CWE-20"
+      references:
+        - "https://cwe.mitre.org/data/definitions/20.html"
+
+  # 2. Path Traversal via open() – CWE-22
+  - id: python-path-traversal-open
+    pattern-regex: 'open\s*\(.+(\.\./).*\)'
+    message: "Possible path traversal via open()"
+    languages: [python]
+    severity: ERROR
+    fix: safe_open(normalize_path($PATH))
+    metadata:
+      cwe: "CWE-22"
+      references:
+        - "https://cwe.mitre.org/data/definitions/22.html"
+
+  # 3. Cross-Site Scripting (XSS) – CWE-79
+  - id: python-xss-raw-html
+    pattern-regex: '<script'
+    message: "Raw '<script>' found in output; possible XSS"
+    languages: [python]
+    severity: HIGH
+    fix: escape_html($HTML)
+    metadata:
+      cwe: "CWE-79"
+      references:
+        - "https://cwe.mitre.org/data/definitions/79.html"
+
+  # 4. SQL Injection via string concat – CWE-89
+  - id: python-sql-injection-concat
+    patterns:
+      - pattern: $CUR.execute("…"+$UNSAFE+"…")
+    message: "Use of string concatenation in SQL queries"
+    languages: [python]
+    severity: ERROR
+    fix: $CUR.execute($QUERY, [$UNSAFE])
+    metadata:
+      cwe: "CWE-89"
+      references:
+        - "https://cwe.mitre.org/data/definitions/89.html"
+
+  # 5. Code Injection via eval() – CWE-94
+  - id: python-code-injection-eval
+    patterns:
+      - pattern: eval($VAR)
+      - pattern-not: eval("…")
+    message: "Use of eval() can lead to code injection"
+    languages: [python]
+    severity: HIGH
+    fix: secure_eval($VAR)
+    metadata:
+      cwe: "CWE-94"
+      references:
+        - "https://cwe.mitre.org/data/definitions/94.html"
+
+  # 6. Code Injection via exec() – CWE-94
+  - id: python-code-injection-exec
+    pattern-regex: '\bexec\s*\('
+    message: "Use of exec() can lead to code injection"
+    languages: [python]
+    severity: HIGH
+    fix: safe_exec($CODE)
+    metadata:
+      cwe: "CWE-94"
+      references:
+        - "https://cwe.mitre.org/data/definitions/94.html"
+
+  # 7. OS Command Injection via os.system – CWE-78
+  - id: python-command-injection-os-system
+    pattern: os.system($CMD)
+    message: "Use of os.system may lead to command injection"
+    languages: [python]
+    severity: HIGH
+    fix: subprocess.run([$CMD], shell=False)
+    metadata:
+      cwe: "CWE-78"
+      references:
+        - "https://cwe.mitre.org/data/definitions/78.html"
+
+  # 8. OS Command Injection via subprocess – CWE-78
+  - id: python-command-injection-subprocess
+    pattern-regex: 'subprocess\.(Popen|call|run)\('
+    message: "Use of subprocess without sanitization"
+    languages: [python]
+    severity: HIGH
+    fix: subprocess.run([...], shell=False)
+    metadata:
+      cwe: "CWE-78"
+      references:
+        - "https://cwe.mitre.org/data/definitions/78.html"
+
+  # 9. Insecure YAML Deserialization – CWE-502
+  - id: python-insecure-yaml-load
+    patterns:
+      - pattern: yaml.load($DATA)
+    pattern-not:
+      - yaml.safe_load($DATA)
+    message: "Insecure YAML deserialization"
+    languages: [python]
+    severity: ERROR
+    fix: yaml.safe_load($DATA)
+    metadata:
+      cwe: "CWE-502"
+      references:
+        - "https://cwe.mitre.org/data/definitions/502.html"
+
+  # 10. Insecure pickle Deserialization – CWE-502
+  - id: python-insecure-pickle-loads
+    pattern: pickle.loads($DATA)
+    message: "Insecure pickle deserialization"
+    languages: [python]
+    severity: ERROR
+    fix: json.loads($DATA)  # or another safe format
+    metadata:
+      cwe: "CWE-502"
+      references:
+        - "https://cwe.mitre.org/data/definitions/502.html"
+
+  # 11. Weak Hash (MD5) – CWE-327
+  - id: python-weak-hash-md5
+    pattern: hashlib.md5($ARGS)
+    message: "Use of MD5 is cryptographically weak"
+    languages: [python]
+    severity: WARNING
+    fix: hashlib.sha256($ARGS)
+    metadata:
+      cwe: "CWE-327"
+      references:
+        - "https://cwe.mitre.org/data/definitions/327.html"
+
+  # 12. Weak Hash (SHA1) – CWE-327
+  - id: python-weak-hash-sha1
+    pattern: hashlib.sha1($ARGS)
+    message: "Use of SHA-1 is cryptographically weak"
+    languages: [python]
+    severity: WARNING
+    fix: hashlib.sha256($ARGS)
+    metadata:
+      cwe: "CWE-327"
+      references:
+        - "https://cwe.mitre.org/data/definitions/327.html"
+
+  # 13. Cleartext Transmission (SSL verify=False) – CWE-319/295
+  - id: python-cleartext-transmission
+    pattern-regex: 'requests\.\w+\(.+verify\s*=\s*False'
+    message: "SSL verification disabled; cleartext risk"
+    languages: [python]
+    severity: ERROR
+    fix: requests.get($URL, verify=True)
+    metadata:
+      cwe: "CWE-319,CWE-295"
+      references:
+        - "https://cwe.mitre.org/data/definitions/319.html"
+        - "https://cwe.mitre.org/data/definitions/295.html"
+
+  # 14. Path Traversal via os.path.join – CWE-22
+  - id: python-path-traversal-os-path
+    pattern-regex: 'os\.path\.(join|abspath)\(.+(\.\./).*\)'
+    message: "Possible path traversal via os.path"
+    languages: [python]
+    severity: ERROR
+    fix: safe_join($BASE, $RELATIVE)
+    metadata:
+      cwe: "CWE-22"
+      references:
+        - "https://cwe.mitre.org/data/definitions/22.html"
+
+  # 15. Insecure Temporary File – CWE-377
+  - id: python-insecure-tempfile-mktemp
+    pattern: tempfile.mktemp()
+    message: "tempfile.mktemp() is insecure"
+    languages: [python]
+    severity: WARNING
+    fix: tempfile.NamedTemporaryFile()
+    metadata:
+      cwe: "CWE-377"
+      references:
+        - "https://cwe.mitre.org/data/definitions/377.html"
+
+  # 16. Unrestricted File Upload – CWE-434
+  - id: python-unrestricted-file-upload
+    pattern-regex: '\.save\s*\('
+    message: "Possible unrestricted file upload"
+    languages: [python]
+    severity: WARNING
+    fix: secure_save($FILE)
+    metadata:
+      cwe: "CWE-434"
+      references:
+        - "https://cwe.mitre.org/data/definitions/434.html"
+
+  # 17. XML External Entity (XXE) – CWE-611
+  - id: python-xxe-elementtree-parse
+    pattern: xml.etree.ElementTree.parse($FILE)
+    message: "XML parsing without XXE protection"
+    languages: [python]
+    severity: ERROR
+    fix: safe_parse($FILE)
+    metadata:
+      cwe: "CWE-611"
+      references:
+        - "https://cwe.mitre.org/data/definitions/611.html"
+
+  # 18. LDAP Injection – CWE-90
+  - id: python-ldap-injection
+    pattern-regex: 'ldap\.initialize\(.+[\*\|\(\)].*\)'
+    message: "Possible LDAP injection"
+    languages: [python]
+    severity: ERROR
+    fix: ldap.safe_search($QUERY)
+    metadata:
+      cwe: "CWE-90"
+      references:
+        - "https://cwe.mitre.org/data/definitions/90.html"
+
+  # 19. Hardcoded Credential – CWE-798
+  - id: python-hardcoded-credential
+    pattern-regex: '(PASSWORD|API_KEY|SECRET_KEY)\s*='
+    message: "Hardcoded credential in code"
+    languages: [python]
+    severity: WARNING
+    fix: load_from_env("PASSWORD")
+    metadata:
+      cwe: "CWE-798"
+      references:
+        - "https://cwe.mitre.org/data/definitions/798.html"
+
+  # 20. Insecure Random – CWE-338
+  - id: python-insecure-random
+    pattern-regex: 'random\.(randint|random)\('
+    message: "Use of random module for security-critical randomness"
+    languages: [python]
+    severity: WARNING
+    fix: secrets.randbelow($MAX)
+    metadata:
+      cwe: "CWE-338"
+      references:
+        - "https://cwe.mitre.org/data/definitions/338.html"
+
+  # 21. Cleartext Storage of Sensitive Information – CWE-312
+  - id: python-cleartext-storage-shelve
+    pattern-regex: 'shelve\.open\s*\('
+    message: "Using shelve.open() without encryption may store sensitive data in cleartext"
+    languages: [python]
+    severity: WARNING
+    fix: use_encrypted_store($FILE)
+    metadata:
+      cwe: "CWE-312"
+      references:
+        - "https://cwe.mitre.org/data/definitions/312.html"
+
+  # 22. Hardcoded Django SECRET_KEY – CWE-320
+  - id: python-hardcoded-django-secret-key
+    pattern-regex: 'SECRET_KEY\s*=\s*['']"'
+    message: "Hardcoded SECRET_KEY in settings.py exposes key management errors"
+    languages: [python]
+    severity: ERROR
+    fix: load_secret_from_env('SECRET_KEY')
+    metadata:
+      cwe: "CWE-320"
+      references:
+        - "https://cwe.mitre.org/data/definitions/320.html"
+
+  # 23. Information Exposure Through Log Files – CWE-532
+  - id: python-logging-sensitive-data
+    pattern-regex: 'logging\.(debug|info|warning|error)\s*\(.*(password|secret).*'
+    message: "Logging variable containing 'password' or 'secret' may leak sensitive information"
+    languages: [python]
+    severity: WARNING
+    fix: mask_or_remove_sensitive_fields($LOG_ARGS)
+    metadata:
+      cwe: "CWE-532"
+      references:
+        - "https://cwe.mitre.org/data/definitions/532.html"
+
+  # 24. Incorrect Permission Assignment for Critical Resource – CWE-732
+  - id: python-chmod-world-writable
+    pattern-regex: 'os\.chmod\s*\(.*,\s*0o777\s*\)'
+    message: "Setting file or directory mode to 0o777 makes it world-writable"
+    languages: [python]
+    severity: WARNING
+    fix: os.chmod($FILE, 0o770)
+    metadata:
+      cwe: "CWE-732"
+      references:
+        - "https://cwe.mitre.org/data/definitions/732.html"
+
+  # 25. Information Exposure – Printing Full Traceback – CWE-200
+  - id: python-print-traceback
+    pattern-regex: 'traceback\.print_exc\s*\('
+    message: "Printing full traceback may expose internal implementation details"
+    languages: [python]
+    severity: WARNING
+    fix: log_error_and_mask_traceback($LOGGER, $EXC)
+    metadata:
+      cwe: "CWE-200"
+      references:
+        - "https://cwe.mitre.org/data/definitions/200.html"
